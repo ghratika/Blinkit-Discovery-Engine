@@ -1,0 +1,23 @@
+# Environment & secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# Data — raw scrapes (large and should not be committed)
+data/raw/
+
+# Chroma vector store — committed so HF Spaces can use it at startup
+# data/chroma_db/
+
+# Notebooks checkpoints
+notebooks/.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/

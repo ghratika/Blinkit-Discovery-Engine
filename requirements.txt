@@ -1,0 +1,21 @@
+# ── Core App Runtime (Streamlit Dashboard + RAG Chatbot) ──────────────────────
+# These are the ONLY packages needed to run app/streamlit_app.py on HF Spaces.
+# Collection tools (praw, google-play-scraper, etc.) are intentionally excluded.
+
+streamlit==1.48.0
+pandas==2.3.0
+altair==5.5.0
+python-dotenv==1.1.0
+
+# ── LLM / RAG ─────────────────────────────────────────────────────────────────
+groq==0.37.1
+langchain==0.3.26
+langchain-core==1.4.9
+langchain-groq==0.3.4
+
+# ── Vector Store ──────────────────────────────────────────────────────────────
+chromadb==1.5.9
+sentence-transformers==4.1.0
+
+# ── numpy – pinned to a pre-built wheel (no C compiler required) ──────────────
+numpy==2.5.1
