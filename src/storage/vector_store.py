@@ -19,6 +19,12 @@ COLLECTION_NAME = "blinkit_reviews"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 INGEST_BATCH_SIZE = 50
 
+try:
+    import streamlit as st
+    HAS_STREAMLIT = True
+except ImportError:
+    HAS_STREAMLIT = False
+
 # ── Lazy Singletons ───────────────────────────────────────────────────────────
 _client: Optional[chromadb.PersistentClient] = None
 _model: Optional[SentenceTransformer] = None
@@ -27,30 +33,54 @@ _collection = None
 
 def _get_chroma_client() -> chromadb.PersistentClient:
     global _client
-    if _client is None:
-        CHROMA_DB_PATH.mkdir(parents=True, exist_ok=True)
-        _client = chromadb.PersistentClient(path=str(CHROMA_DB_PATH))
-    return _client
+    if HAS_STREAMLIT:
+        @st.cache_resource
+        def cached_client():
+            CHROMA_DB_PATH.mkdir(parents=True, exist_ok=True)
+            return chromadb.PersistentClient(path=str(CHROMA_DB_PATH))
+        return cached_client()
+    else:
+        if _client is None:
+            CHROMA_DB_PATH.mkdir(parents=True, exist_ok=True)
+            _client = chromadb.PersistentClient(path=str(CHROMA_DB_PATH))
+        return _client
 
 
 def _get_embedding_model() -> SentenceTransformer:
     global _model
-    if _model is None:
-        print(f"[VectorStore] Loading embedding model '{EMBEDDING_MODEL}'...")
-        _model = SentenceTransformer(EMBEDDING_MODEL)
-    return _model
+    if HAS_STREAMLIT:
+        @st.cache_resource
+        def cached_model():
+            print(f"[VectorStore] Loading embedding model '{EMBEDDING_MODEL}'...")
+            return SentenceTransformer(EMBEDDING_MODEL)
+        return cached_model()
+    else:
+        if _model is None:
+            print(f"[VectorStore] Loading embedding model '{EMBEDDING_MODEL}'...")
+            _model = SentenceTransformer(EMBEDDING_MODEL)
+        return _model
 
 
 def get_collection():
     """Returns (or creates) the ChromaDB collection."""
     global _collection
-    if _collection is None:
-        client = _get_chroma_client()
-        _collection = client.get_or_create_collection(
-            name=COLLECTION_NAME,
-            metadata={"hnsw:space": "cosine"},
-        )
-    return _collection
+    if HAS_STREAMLIT:
+        @st.cache_resource
+        def cached_collection():
+            client = _get_chroma_client()
+            return client.get_or_create_collection(
+                name=COLLECTION_NAME,
+                metadata={"hnsw:space": "cosine"},
+            )
+        return cached_collection()
+    else:
+        if _collection is None:
+            client = _get_chroma_client()
+            _collection = client.get_or_create_collection(
+                name=COLLECTION_NAME,
+                metadata={"hnsw:space": "cosine"},
+            )
+        return _collection
 
 
 # ── Metadata Builder ──────────────────────────────────────────────────────────
