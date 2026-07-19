@@ -317,7 +317,13 @@ def load_enriched() -> list[dict]:
     path = ROOT / "data" / "processed" / "enriched.json"
     if path.exists():
         with open(path, encoding="utf-8") as f:
-            return json.load(f)
+            data = json.load(f)
+            # Normalize different Play Store variants into one
+            for r in data:
+                src = r.get("source", "")
+                if src and "play store" in src.lower():
+                    r["source"] = "Play Store"
+            return data
     return []
 
 
