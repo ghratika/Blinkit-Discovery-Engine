@@ -1,5 +1,6 @@
 # ── Core App Runtime ──────────────────────────────────────────────────────────
-# Pinned to versions with pre-built Python 3.12 wheels (no compiler needed).
+# Python 3.12 is pinned via .python-version (for uv/Streamlit Cloud).
+# All packages below have pre-built wheels for Python 3.12 on linux/amd64.
 streamlit==1.45.1
 pandas==2.2.3
 altair==5.4.1
@@ -10,6 +11,8 @@ groq==0.13.0
 langchain-groq==0.2.4
 langchain-core==0.3.66
 
-# ── Vector Store ──────────────────────────────────────────────────────────────
-chromadb==0.5.23
+# ── Vector Store — MUST match the chromadb version used to create data/chroma_db ──
+# The committed database was created with chromadb 1.5.9 (1.x schema).
+# Downgrading to 0.5.x would crash with a schema mismatch error.
+chromadb==1.5.9
 sentence-transformers==3.4.1
