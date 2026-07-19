@@ -58,7 +58,7 @@ load_dotenv()
 
 # ── Configuration ─────────────────────────────────────────────────────────────
 MODEL_NAME = "llama-3.1-8b-instant"
-TOP_K = 5
+TOP_K = 7
 SIMILARITY_THRESHOLD = 1.5  # ChromaDB cosine distance; lower = more similar
 
 # ── System Prompt ─────────────────────────────────────────────────────────────
@@ -102,7 +102,7 @@ def _build_context(results: list[dict]) -> str:
         parts.append(
             f"[{i}] Source: {source} | Platform: Blinkit | Date: {month_year} | "
             f"Similarity: {similarity:.2f}\n"
-            f"Review: {r['text']}\n"
+            f"Review: {r['text'][:500] + ('...' if len(r['text']) > 500 else '')}\n"
         )
 
     return "\n".join(parts)
@@ -146,6 +146,13 @@ def ask(question: str, platform_filter: str | None = None) -> dict:
 
     # Filter by similarity threshold (guard against completely irrelevant results)
     relevant = [r for r in results if r.get("distance", 9) <= SIMILARITY_THRESHOLD]
+    
+    if not relevant:
+        return {
+            "answer": "No relevant reviews found for this query.",
+            "sources": [],
+            "context_used": "",
+        }
 
     context = _build_context(relevant)
 

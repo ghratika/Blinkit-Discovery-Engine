@@ -23,6 +23,7 @@ INPUT_PATH = Path("data/processed/normalized.json")
 OUTPUT_PATH = Path("data/processed/enriched.json")
 BATCH_SIZE = 10
 DELAY_BETWEEN_BATCHES = 2  # seconds
+MAX_TARGET_REVIEWS = 550
 MAX_RETRIES = 5
 MODEL_NAME = "llama-3.1-8b-instant"
 
@@ -120,8 +121,8 @@ def run() -> None:
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     for review in reviews_to_process:
-        if len(enriched_reviews) >= 505:
-            print("[Enrichment] Reached target of 505 reviews. Stopping early.")
+        if len(enriched_reviews) >= 600:
+            print("[Enrichment] Reached target of 600 reviews. Stopping early.")
             break
             
         result = enrich_review(client, review["text"])

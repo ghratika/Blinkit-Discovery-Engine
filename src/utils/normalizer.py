@@ -23,7 +23,7 @@ from langdetect import detect, LangDetectException
 # ── Configuration ─────────────────────────────────────────────────────────────
 RAW_DIR = Path("data/raw")
 OUTPUT_PATH = Path("data/processed/normalized.json")
-MIN_WORD_COUNT = 5   # short Play Store reviews like "delivery was fast, good service" are valid
+MIN_WORD_COUNT = 10   # updated to 10 to filter out spam or generic reviews
 
 # ── PII Stripping ─────────────────────────────────────────────────────────────
 _EMAIL_PATTERN = re.compile(r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+")
@@ -71,7 +71,7 @@ def normalize_record(raw: dict) -> dict | None:
     text = strip_pii(raw.get("text") or "")
 
     # Filter: empty or too short
-    if len(text.split()) < MIN_WORD_COUNT:
+    if not text.strip() or len(text.split()) < MIN_WORD_COUNT:
         return None
 
     # Filter: non-English / non-Hinglish
@@ -127,7 +127,7 @@ def run() -> None:
 
         h = content_hash(record["text"])
         if h in seen_hashes:
-            continue   # duplicate
+            continue
         seen_hashes.add(h)
 
         normalized.append(record)

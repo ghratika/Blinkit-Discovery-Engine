@@ -71,4 +71,12 @@ Interactive 8-section dashboard + RAG Chatbot
 
 ---
 
+## 💤 Cold Starts (Spaces Sleeping)
+
+This application is deployed on a **Free Tier Hugging Face Space**. Free spaces automatically go to sleep after ~48 hours of inactivity.
+If you visit the app after a period of inactivity, you may experience a **2-3 minute loading screen** while the container wakes up and reinstalls dependencies. This is expected behavior. 
+A GitHub Action cron job has been configured to ping the space daily to minimize the chances of this happening.
+
+---
+
 *Part 1 of the Blinkit Discovery Engine. 100% free-of-cost tools.*

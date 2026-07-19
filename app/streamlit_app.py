@@ -509,60 +509,63 @@ st.markdown("---")
 if nav == "📊 Overview":
     st.markdown('<div class="sec-head"><span class="sec-head-icon">📊</span><span class="sec-head-title">Overview Dashboard</span></div>', unsafe_allow_html=True)
 
-    try:
-        import altair as alt
+    if not filtered:
+        st.warning("Not enough data for this segment. Please broaden your filters.")
+    else:
+        try:
+            import altair as alt
 
-        # Top themes chart
-        theme_freq = Counter(all_themes_flat).most_common(12)
-        if theme_freq:
-            df_t = pd.DataFrame(theme_freq, columns=["Theme", "Count"])
-            chart = (
-                alt.Chart(df_t)
-                .mark_bar(cornerRadiusTopLeft=5, cornerRadiusTopRight=5, color="#FFE000")
-                .encode(
-                    x=alt.X("Count:Q", title="Mentions", axis=alt.Axis(labelColor="#A0A0A0", titleColor="#A0A0A0", gridColor="rgba(255,255,255,0.05)")),
-                    y=alt.Y("Theme:N", sort="-x", title=None, axis=alt.Axis(labelColor="#F5F5F5")),
-                    tooltip=[alt.Tooltip("Theme"), alt.Tooltip("Count")],
+            # Top themes chart
+            theme_freq = Counter(all_themes_flat).most_common(12)
+            if theme_freq:
+                df_t = pd.DataFrame(theme_freq, columns=["Theme", "Count"])
+                chart = (
+                    alt.Chart(df_t)
+                    .mark_bar(cornerRadiusTopLeft=5, cornerRadiusTopRight=5, color="#FFE000")
+                    .encode(
+                        x=alt.X("Count:Q", title="Mentions", axis=alt.Axis(labelColor="#A0A0A0", titleColor="#A0A0A0", gridColor="rgba(255,255,255,0.05)")),
+                        y=alt.Y("Theme:N", sort="-x", title=None, axis=alt.Axis(labelColor="#F5F5F5")),
+                        tooltip=[alt.Tooltip("Theme"), alt.Tooltip("Count")],
+                    )
+                    .properties(height=340, title=alt.TitleParams("Top Themes in Blinkit User Reviews", color="#F5F5F5", fontSize=14, fontWeight=600))
+                    .configure_view(strokeOpacity=0, fill="#1A1A1A")
+                    .configure_axis(gridColor="rgba(255,255,255,0.04)")
                 )
-                .properties(height=340, title=alt.TitleParams("Top Themes in Blinkit User Reviews", color="#F5F5F5", fontSize=14, fontWeight=600))
-                .configure_view(strokeOpacity=0, fill="#1A1A1A")
-                .configure_axis(gridColor="rgba(255,255,255,0.04)")
-            )
-            st.altair_chart(chart, use_container_width=True)
+                st.altair_chart(chart, use_container_width=True)
 
-        # Monthly trend
-        st.markdown("#### 📈 Monthly Review Volume (2024 – 2026)")
-        monthly: dict[str, int] = {}
-        for r in filtered:
-            ts = r.get("timestamp", "")
-            if ts and len(ts) >= 7:
-                monthly[ts[:7]] = monthly.get(ts[:7], 0) + 1
-        if monthly:
-            df_m = pd.DataFrame(sorted(monthly.items()), columns=["Month", "Count"])
-            chart_m = (
-                alt.Chart(df_m)
-                .mark_area(
-                    line={"color": "#FFE000", "strokeWidth": 2},
-                    color=alt.Gradient(
-                        gradient="linear",
-                        stops=[alt.GradientStop(color="rgba(255,224,0,0.4)", offset=0),
-                               alt.GradientStop(color="rgba(255,224,0,0.02)", offset=1)],
-                        x1=1, x2=1, y1=0, y2=1,
-                    ),
+            # Monthly trend
+            st.markdown("#### 📈 Monthly Review Volume (2024 – 2026)")
+            monthly: dict[str, int] = {}
+            for r in filtered:
+                ts = r.get("timestamp", "")
+                if ts and len(ts) >= 7:
+                    monthly[ts[:7]] = monthly.get(ts[:7], 0) + 1
+            if monthly:
+                df_m = pd.DataFrame(sorted(monthly.items()), columns=["Month", "Count"])
+                chart_m = (
+                    alt.Chart(df_m)
+                    .mark_area(
+                        line={"color": "#FFE000", "strokeWidth": 2},
+                        color=alt.Gradient(
+                            gradient="linear",
+                            stops=[alt.GradientStop(color="rgba(255,224,0,0.4)", offset=0),
+                                   alt.GradientStop(color="rgba(255,224,0,0.02)", offset=1)],
+                            x1=1, x2=1, y1=0, y2=1,
+                        ),
+                    )
+                    .encode(
+                        x=alt.X("Month:T", title="Month", axis=alt.Axis(labelColor="#A0A0A0", titleColor="#A0A0A0", format="%b %Y")),
+                        y=alt.Y("Count:Q", title="Reviews", axis=alt.Axis(labelColor="#A0A0A0", titleColor="#A0A0A0")),
+                        tooltip=[alt.Tooltip("Month:T", format="%b %Y"), alt.Tooltip("Count:Q")],
+                    )
+                    .properties(height=180)
+                    .configure_view(strokeOpacity=0, fill="#1A1A1A")
+                    .configure_axis(gridColor="rgba(255,255,255,0.04)")
                 )
-                .encode(
-                    x=alt.X("Month:T", title="Month", axis=alt.Axis(labelColor="#A0A0A0", titleColor="#A0A0A0", format="%b %Y")),
-                    y=alt.Y("Count:Q", title="Reviews", axis=alt.Axis(labelColor="#A0A0A0", titleColor="#A0A0A0")),
-                    tooltip=[alt.Tooltip("Month:T", format="%b %Y"), alt.Tooltip("Count:Q")],
-                )
-                .properties(height=180)
-                .configure_view(strokeOpacity=0, fill="#1A1A1A")
-                .configure_axis(gridColor="rgba(255,255,255,0.04)")
-            )
-            st.altair_chart(chart_m, use_container_width=True)
+                st.altair_chart(chart_m, use_container_width=True)
 
-    except ImportError:
-        st.info("Install `altair` for charts: `pip install altair`")
+        except ImportError:
+            st.info("Install `altair` for charts: `pip install altair`")
 
     # Source summary
     st.markdown("#### 📡 Reviews by Source")
@@ -585,6 +588,9 @@ elif nav == "📅 Timeline Reviews":
         st.markdown(f"Showing **{len(filtered)}** reviews between **{start_date}** and **{end_date}**.")
     with col_r:
         sort_by = st.selectbox("Sort", ["Most Recent", "Oldest First"], key="sort_rev")
+        
+    if not filtered:
+        st.warning("Not enough data for this segment. Please broaden your filters.")
 
     kw = st.text_input("🔍 Search keyword or theme", placeholder="e.g. stockout, trust, habit…", key="kw")
 
@@ -902,13 +908,24 @@ elif nav == "💬 AI Chatbot":
         with st.spinner("🔍 Retrieving relevant Blinkit reviews…"):
             try:
                 from src.rag.rag_chain import ask
-                result = ask(question, platform_filter=None)  # All Blinkit
-                st.session_state.chat_history.append({
-                    "question": question,
-                    "answer": result["answer"],
-                    "sources": result["sources"],
-                })
-                st.rerun()
+                
+                @st.cache_data(ttl=300)
+                def cached_ask(q):
+                    return ask(q, platform_filter=None)
+                
+                try:
+                    result = cached_ask(question)
+                    st.session_state.chat_history.append({
+                        "question": question,
+                        "answer": result["answer"],
+                        "sources": result["sources"],
+                    })
+                    st.rerun()
+                except Exception as e:
+                    if "429" in str(e) or "too many requests" in str(e).lower():
+                        st.error("⚠️ The AI is currently receiving too many requests. Please wait a moment and try again.")
+                    else:
+                        raise e
             except ValueError as ve:
                 st.error(f"⚙️ Configuration error: {ve}\n\nAdd your `GROQ_API_KEY` to the `.env` file.")
             except Exception as e:

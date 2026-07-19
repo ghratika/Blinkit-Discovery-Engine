@@ -5,11 +5,11 @@ Contains the system and user prompts used for the Groq API
 to extract themes, sentiment, segments, and unmet needs from reviews.
 """
 
-ENRICHMENT_SYSTEM_PROMPT = "You are an expert UX researcher analyzing user reviews of quick-commerce apps."
+ENRICHMENT_SYSTEM_PROMPT = "You are an expert UX researcher analyzing user reviews of quick-commerce apps. Expect and translate/handle Hinglish (Hindi written in English script) in the reviews organically."
 
 ENRICHMENT_USER_PROMPT_TEMPLATE = """Analyze the following review and return a JSON object with these exact keys:
 - "themes": list of 1-3 short theme labels (e.g., "Habit Loop", "Category Trust", "Stockout Frustration")
-- "sentiment": one of "Positive", "Neutral", "Negative"
+- "sentiment": one of "Positive", "Neutral", "Negative". If a review uses sarcasm (e.g., "Great job delivering expired milk!"), tag it as Negative. Assign sentiment specifically *relative to the target platform* (Blinkit) being analyzed.
 - "segment": list of user segments inferred FREELY from the review text itself (e.g., "Pet Owner", "New Parent", "Health-Conscious", "Budget Shopper"). Do NOT use a fixed list — derive segment labels organically based on what the reviewer says about themselves or their household context. Return an empty list if no segment can be inferred.
 - "unmet_needs": list of 0-2 explicit gaps or requests mentioned (empty list if none)
 
