@@ -23,11 +23,10 @@ INPUT_PATH = Path("data/processed/normalized.json")
 OUTPUT_PATH = Path("data/processed/enriched.json")
 BATCH_SIZE = 10
 DELAY_BETWEEN_BATCHES = 2  # seconds
-MAX_RETRIES = 3
+MAX_RETRIES = 5
 MODEL_NAME = "llama-3.1-8b-instant"
 
 # ── Groq Setup ────────────────────────────────────────────────────────────────
-
 def get_client() -> Groq:
     api_key = os.environ.get("GROQ_API_KEY")
     if not api_key or api_key.endswith("here"):
@@ -39,7 +38,6 @@ def get_client() -> Groq:
 
 def extract_json(response_text: str) -> dict:
     """Attempts to parse JSON from the LLM response, even if wrapped in markdown."""
-    # Find anything that looks like a JSON block
     match = re.search(r'\{.*\}', response_text.strip(), re.DOTALL)
     if match:
         try:
@@ -47,7 +45,6 @@ def extract_json(response_text: str) -> dict:
         except json.JSONDecodeError:
             pass
     
-    # Try parsing the raw string
     try:
         return json.loads(response_text.strip())
     except json.JSONDecodeError as e:
@@ -79,15 +76,11 @@ def enrich_review(client: Groq, review_text: str) -> dict:
                     print(f"  [Rate Limit] 429 hit. Waiting {wait_time}s before retry {attempt+1}/{MAX_RETRIES}...")
                     time.sleep(wait_time)
                 else:
-                    print(f"  [Error] Max retries hit for 429 rate limit.")
                     return {"error": "Rate limit max retries exceeded"}
             else:
                 if attempt < MAX_RETRIES:
-                    wait_time = 2
-                    print(f"  [Warning] API error: {e}. Retrying in {wait_time}s...")
-                    time.sleep(wait_time)
+                    time.sleep(2)
                 else:
-                    print(f"  [Error] Failed to enrich review: {e}")
                     return {"error": str(e)}
                     
     return {"error": "Unknown error"}
@@ -105,7 +98,6 @@ def run() -> None:
     with open(INPUT_PATH, "r", encoding="utf-8") as f:
         reviews = json.load(f)
 
-    # Load existing progress if available
     enriched_reviews = []
     processed_ids = set()
     if OUTPUT_PATH.exists():
@@ -127,32 +119,29 @@ def run() -> None:
     processed_count = 0
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
-    # Process in batches
-    for i in range(0, len(reviews_to_process), BATCH_SIZE):
-        batch = reviews_to_process[i : i + BATCH_SIZE]
-        print(f"[Enrichment] Processing batch {i//BATCH_SIZE + 1} ({len(batch)} records)...")
+    for review in reviews_to_process:
+        if len(enriched_reviews) >= 505:
+            print("[Enrichment] Reached target of 505 reviews. Stopping early.")
+            break
+            
+        result = enrich_review(client, review["text"])
+        if "error" in result:
+            review["enrichment_error"] = result["error"]
+            review["enrichment"] = None
+        else:
+            review["enrichment"] = result
+            
+        enriched_reviews.append(review)
+        processed_count += 1
         
-        for review in batch:
-            result = enrich_review(client, review["text"])
-            
-            if "error" in result:
-                review["enrichment_error"] = result["error"]
-                review["enrichment"] = None
-            else:
-                review["enrichment"] = result
-                
-            enriched_reviews.append(review)
-            processed_count += 1
-            
-            # Checkpoint save every 50 records
-            if processed_count % 50 == 0:
-                with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-                    json.dump(enriched_reviews, f, ensure_ascii=False, indent=2)
-                print(f"  [Checkpoint] Saved {len(enriched_reviews)} records to {OUTPUT_PATH}")
+        # Checkpoint save
+        if processed_count % 10 == 0:
+            with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+                json.dump(enriched_reviews, f, ensure_ascii=False, indent=2)
+            print(f"  [Checkpoint] Saved {len(enriched_reviews)} records to {OUTPUT_PATH}")
 
-        # Delay between batches
-        if i + BATCH_SIZE < len(reviews_to_process):
-            time.sleep(DELAY_BETWEEN_BATCHES)
+        # Sleep to respect 30 RPM limit on free tier
+        time.sleep(2.1)
 
     # Final save
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
