@@ -943,11 +943,38 @@ elif nav == "🎯 Unmet Needs":
     st.markdown('<div class="sec-head"><span class="sec-head-icon">🎯</span><span class="sec-head-title">Unmet Needs — Ranked List</span></div>', unsafe_allow_html=True)
     st.markdown("Aggregated from the `unmet_needs` field across all filtered Blinkit reviews.")
 
+    def _group_need(need: str) -> str:
+        n = need.lower()
+        if "customer support" in n or "customer service" in n or "resolution" in n or "response" in n:
+            return "Better Customer Support"
+        if "refund" in n or "return" in n:
+            return "Improved Refund & Return Policy"
+        if "delivery" in n or "delay" in n or "time" in n or "late" in n:
+            return "Reliable & Faster Delivery"
+        if "stock" in n or "inventory" in n or "availability" in n or "out of" in n:
+            return "Real-time Stock Availability"
+        if "price" in n or "cost" in n or "expensive" in n:
+            return "Lower Prices"
+        if "quality" in n or "freshness" in n or "expired" in n or "condition" in n or "rotten" in n:
+            return "Better Product Quality"
+        if "substitution" in n or "replacement" in n:
+            return "No Random Substitutions"
+        if "search" in n or "discover" in n or "find" in n or "recommend" in n:
+            return "Better Search & Discovery"
+        if "ui" in n or "app" in n or "interface" in n or "bug" in n or "crash" in n:
+            return "App Stability & UI Improvements"
+        if "discount" in n or "offer" in n or "coupon" in n or "promo" in n:
+            return "More Discounts & Offers"
+        
+        # Capitalize first letter as fallback
+        return need.strip().capitalize()
+
     needs_cnt: dict[str, int] = {}
     for r in filtered:
         for need in (r.get("enrichment") or {}).get("unmet_needs") or []:
             if need.strip():
-                needs_cnt[need.strip()] = needs_cnt.get(need.strip(), 0) + 1
+                grouped = _group_need(need.strip())
+                needs_cnt[grouped] = needs_cnt.get(grouped, 0) + 1
 
     ranked = sorted(needs_cnt.items(), key=lambda x: x[1], reverse=True)
 
