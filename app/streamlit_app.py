@@ -482,6 +482,30 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+def _group_theme(t: str) -> str:
+    tl = t.lower()
+    if "stock" in tl or "availab" in tl or "missing" in tl:
+        return "Stockout Frustration"
+    if "habit" in tl or "routine" in tl or "regular" in tl:
+        return "Habit Loop"
+    if "trust" in tl or "quality" in tl or "fresh" in tl or "expir" in tl:
+        return "Category Trust & Quality"
+    if "price" in tl or "cost" in tl or "fee" in tl or "expensive" in tl or "charge" in tl:
+        return "Pricing & Fees"
+    if "speed" in tl or "fast" in tl or "quick" in tl or "time" in tl or "late" in tl or "delay" in tl:
+        return "Delivery Speed"
+    if "support" in tl or "service" in tl or "refund" in tl or "return" in tl:
+        return "Customer Support"
+    if "ui" in tl or "app" in tl or "search" in tl or "discover" in tl or "find" in tl:
+        return "App Experience"
+    return t.title()
+
+# Clean themes on the fly
+for r in filtered:
+    enr = r.get("enrichment")
+    if enr and "themes" in enr:
+        enr["themes"] = list({_group_theme(t) for t in enr["themes"] if t})
+
 # ── KPIs ──────────────────────────────────────────────────────────────────────
 total_f = len(filtered)
 enr_sents = [(r.get("enrichment") or {}).get("sentiment") for r in filtered]
@@ -761,7 +785,8 @@ elif nav == "🏷️ Theme Taxonomy":
                 f'<div class="bar-wrap"><div class="bar-fill" style="width:{bar_w}%"></div></div>',
                 unsafe_allow_html=True,
             )
-            theme_revs = [r for r in filtered if theme in (r.get("enrichment") or {}).get("themes", [])][:5]
+            theme_revs = [r for r in filtered if theme in (r.get("enrichment") or {}).get("themes", [])]
+            theme_revs = sorted(theme_revs, key=lambda x: x.get("timestamp") or "", reverse=True)[:5]
             if theme_revs:
                 for r in theme_revs:
                     render_review_card(r)
