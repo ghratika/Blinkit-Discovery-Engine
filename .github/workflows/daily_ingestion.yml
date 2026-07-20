@@ -41,7 +41,7 @@ jobs:
 
       - name: Normalize Data
         run: |
-          python src/data_collection/normalize.py
+          python src/utils/normalizer.py
 
       - name: Run LLM Enrichment Pipeline
         env:
