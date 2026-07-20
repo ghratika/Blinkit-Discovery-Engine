@@ -142,10 +142,17 @@ def ask(question: str, platform_filter: str | None = None) -> dict:
     if platform_filter:
         where_filter = {"platform": {"$eq": platform_filter}}
 
-    results = vector_query(question, top_k=TOP_K, where=where_filter)
+    # Fetch a larger pool to allow sorting by date
+    results = vector_query(question, top_k=25, where=where_filter)
 
-    # Filter by similarity threshold (guard against completely irrelevant results)
+    # Filter by similarity threshold first
     relevant = [r for r in results if r.get("distance", 9) <= SIMILARITY_THRESHOLD]
+    
+    # Sort the relevant results by timestamp descending to prioritize newest (2026) reviews
+    relevant.sort(key=lambda x: x.get("metadata", {}).get("timestamp", ""), reverse=True)
+    
+    # Take the top 8 newest reviews that met the similarity threshold
+    relevant = relevant[:8]
     
     if not relevant:
         return {
