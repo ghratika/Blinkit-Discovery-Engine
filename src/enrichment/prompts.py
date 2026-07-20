@@ -8,7 +8,7 @@ to extract themes, sentiment, segments, and unmet needs from reviews.
 ENRICHMENT_SYSTEM_PROMPT = "You are an expert UX researcher analyzing user reviews of quick-commerce apps. Expect and translate/handle Hinglish (Hindi written in English script) in the reviews organically."
 
 ENRICHMENT_USER_PROMPT_TEMPLATE = """Analyze the following review and return a JSON object with these exact keys:
-- "themes": list of 1-3 short theme labels (e.g., "Habit Loop", "Category Trust", "Stockout Frustration")
+- "themes": list of 1-3 short theme labels (e.g., "Category Trust", "Delivery Delay", "Quality Issue")
 - "sentiment": one of "Positive", "Neutral", "Negative". If a review uses sarcasm (e.g., "Great job delivering expired milk!"), tag it as Negative. Assign sentiment specifically *relative to the target platform* (Blinkit) being analyzed.
 - "segment": list of BEHAVIORAL user segments inferred from the review text. Segments MUST predict a specific purchase-category need or an exploration pattern. 
   BASELINE CATEGORIES TO USE IF APPLICABLE: "Frequent Shoppers", "Busy Professionals", "Foodies", "Grocery Shoppers (The Natural Explorers)", "Budget Shoppers", "Household Managers".

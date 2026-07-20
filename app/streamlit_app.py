@@ -873,7 +873,8 @@ elif nav == "👥 Segment Breakdown":
 
         st.markdown("#### 📖 Browse Reviews by Persona")
         chosen = st.selectbox("Select a persona", sel_segs or all_segs, key="seg_browse")
-        seg_revs = [r for r in filtered if chosen in (r.get("enrichment") or {}).get("segment", [])][:8]
+        seg_revs = [r for r in filtered if chosen in (r.get("enrichment") or {}).get("segment", [])]
+        seg_revs = sorted(seg_revs, key=lambda x: x.get("timestamp") or "", reverse=True)[:8]
         for r in seg_revs:
             render_review_card(r)
 
