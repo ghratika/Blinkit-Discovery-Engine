@@ -10,6 +10,9 @@ jobs:
   ingest-and-update:
     runs-on: ubuntu-latest
     
+    env:
+      PYTHONPATH: .
+      
     # Required permissions to commit back to the repo
     permissions:
       contents: write
