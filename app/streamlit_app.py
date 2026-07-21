@@ -514,22 +514,9 @@ neg_pct = round(100 * enr_sents.count("Negative") / max(len(enr_sents), 1))
 all_themes_flat = [t for r in filtered for t in (r.get("enrichment") or {}).get("themes", [])]
 unique_themes = len(set(all_themes_flat))
 
-# Calculate Discovery of new products/categories %
-discovery_kw = ["discover", "explore", "new product", "new category", "finding new", "exploration"]
-discovery_cnt = 0
-for r in filtered:
-    txt = r.get("text", "").lower()
-    thms = [t.lower() for t in (r.get("enrichment") or {}).get("themes", [])]
-    is_neg = (r.get("enrichment") or {}).get("sentiment") == "Negative"
-    if is_neg and (any(k in txt for k in discovery_kw) or any("discover" in t or "explore" in t for t in thms)):
-        discovery_cnt += 1
-        
-# The user explicitly requested to show 3% for the presentation dashboard
-discovery_pct = 3 
-
 c1, c2, c3, c4 = st.columns(4)
 with c1:
-    st.markdown(f'<div class="kpi"><div class="kpi-val" style="font-size:1.6rem">{total_f} <span style="font-size:0.75rem;color:#FF3D57;font-weight:600">({discovery_pct}% Discovery-Related Negative)</span></div><div class="kpi-lbl">Reviews</div></div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="kpi"><div class="kpi-val">{total_f}</div><div class="kpi-lbl">Reviews</div></div>', unsafe_allow_html=True)
 with c2:
     st.markdown(f'<div class="kpi"><div class="kpi-val">{pos_pct}%</div><div class="kpi-lbl">Positive</div></div>', unsafe_allow_html=True)
 with c3:
@@ -632,6 +619,7 @@ elif nav == "📅 Timeline Reviews":
     kw = st.text_input("🔍 Search keyword or theme", placeholder="e.g. stockout, trust, habit…", key="kw")
 
     display = sorted(filtered, key=lambda r: r.get("timestamp") or "", reverse=(sort_by == "Most Recent"))
+    display.sort(key=lambda r: {"Negative": 0, "Neutral": 1, "Positive": 2}.get((r.get("enrichment") or {}).get("sentiment"), 3))
     if kw:
         q = kw.lower()
         display = [
@@ -799,7 +787,9 @@ elif nav == "🏷️ Theme Taxonomy":
                 unsafe_allow_html=True,
             )
             theme_revs = [r for r in filtered if theme in (r.get("enrichment") or {}).get("themes", [])]
-            theme_revs = sorted(theme_revs, key=lambda x: x.get("timestamp") or "", reverse=True)[:5]
+            theme_revs = sorted(theme_revs, key=lambda x: x.get("timestamp") or "", reverse=True)
+            theme_revs.sort(key=lambda r: {"Negative": 0, "Neutral": 1, "Positive": 2}.get((r.get("enrichment") or {}).get("sentiment"), 3))
+            theme_revs = theme_revs[:5]
             if theme_revs:
                 for r in theme_revs:
                     render_review_card(r)
@@ -887,7 +877,9 @@ elif nav == "👥 Segment Breakdown":
         st.markdown("#### 📖 Browse Reviews by Persona")
         chosen = st.selectbox("Select a persona", sel_segs or all_segs, key="seg_browse")
         seg_revs = [r for r in filtered if chosen in (r.get("enrichment") or {}).get("segment", [])]
-        seg_revs = sorted(seg_revs, key=lambda x: x.get("timestamp") or "", reverse=True)[:8]
+        seg_revs = sorted(seg_revs, key=lambda x: x.get("timestamp") or "", reverse=True)
+        seg_revs.sort(key=lambda r: {"Negative": 0, "Neutral": 1, "Positive": 2}.get((r.get("enrichment") or {}).get("sentiment"), 3))
+        seg_revs = seg_revs[:8]
         for r in seg_revs:
             render_review_card(r)
 

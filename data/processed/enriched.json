@@ -12835,5 +12835,121 @@
         "More transparent product handling and quality control"
       ]
     }
+  },
+  {
+    "id": "af788af5-1543-46a4-9a48-ebc2a6b1eb59",
+    "source": "MouthShut",
+    "platform": "Web",
+    "text": "Very bad experience with BLINKIT\n\n\n\n\nHello,\n\n\n\n\nYesterday I ordered a AC remote control through their website. The product was delivered within 20 minutes. Unfortunately on opening the battery slot, I found the pins were hanging without any support and I was unable to place the battery.\n\n\n\n\nWhen I called the help line, they are so lethargic and said nothing can be done once delivered. Unless we open the product, how we will know the defect.\n\n\n\n\nFoolish policy.\n\n\n\n\nInspite of writing to Grievances cell, nothing happened. I warn people who are blindly believing and buying electronic products.\n\n\n\n\n\"WHO HAS TO BELL THIS DIRTY CAT\"\n\n\n\n\nRegards,\n\n\n\n\nMANOHAR, MOGAPPAIR",
+    "rating": null,
+    "timestamp": "2026-07-19T15:04:39Z",
+    "url": "https://www.mouthshut.com/product-reviews/blinkit-reviews-925738270",
+    "enrichment": {
+      "themes": [
+        "Delivery Issue",
+        "Customer Support"
+      ],
+      "sentiment": "Negative",
+      "segment": [
+        "Household Managers"
+      ],
+      "unmet_needs": [
+        "Better quality control",
+        "Improved customer support"
+      ]
+    }
+  },
+  {
+    "id": "f642f675-8f24-4601-b869-e1569d016119",
+    "source": "MouthShut",
+    "platform": "Web",
+    "text": "Dear All,\n\n\n\n\nI would like to share my recent experience with Blinkit and warn everyone to be cautious.\n\n\n\n\nToday, I ordered a boAt Airdopes Elite from Blinkit. The product was delivered in damaged packaging. When I raised the issue, the delivery personnel insisted that I accept the damaged package. To my surprise, I was also unable to cancel the order. Even the customer support representative pressured me to accept the delivery despite the damaged packaging.\n\n\n\n\nI am sharing this experience to make all my friends and colleagues aware. Please inspect your orders carefully before accepting delivery, and be cautious when purchasing from Blinkit.\n\n\n\n\nRegards",
+    "rating": null,
+    "timestamp": "2026-07-19T15:04:39Z",
+    "url": "https://www.mouthshut.com/product-reviews/blinkit-reviews-925738270",
+    "enrichment": {
+      "themes": [
+        "Delivery Delay",
+        "Quality Issue",
+        "Customer Support"
+      ],
+      "sentiment": "Negative",
+      "segment": [
+        "Household Managers"
+      ],
+      "unmet_needs": [
+        "Ability to cancel orders after delivery has been initiated",
+        "Proper packaging and handling of products"
+      ]
+    }
+  },
+  {
+    "id": "c033c6e1-fcf5-412f-9c5e-1769313f1b8f",
+    "source": "MouthShut",
+    "platform": "Web",
+    "text": "Today I order gift multi color moon I am totally disappointed its looking like 100 rs worthy gift I hate blink it I wont order here after dont purchase any one",
+    "rating": null,
+    "timestamp": "2026-07-19T15:04:39Z",
+    "url": "https://www.mouthshut.com/product-reviews/blinkit-reviews-925738270",
+    "enrichment": {
+      "themes": [
+        "Quality Issue",
+        "Purchase Experience"
+      ],
+      "sentiment": "Negative",
+      "segment": [
+        "Grocery Shoppers (The Natural Explorers)"
+      ],
+      "unmet_needs": [
+        "Better product quality",
+        "Improved product selection"
+      ]
+    }
+  },
+  {
+    "id": "00536a3c-aa70-437e-afe1-6d54162b371a",
+    "source": "MouthShut",
+    "platform": "Web",
+    "text": "Do not buy any electronic products from blinkit, if the product is not compatible with your device or do not meet your expectations there is no return or refund.. And since there is no call centre number you will go mad explaining on customer support chat. Very poor and worst experience...",
+    "rating": null,
+    "timestamp": "2026-07-19T15:04:39Z",
+    "url": "https://www.mouthshut.com/product-reviews/blinkit-reviews-925738270",
+    "enrichment": {
+      "themes": [
+        "Return Policy",
+        "Customer Support"
+      ],
+      "sentiment": "Negative",
+      "segment": [
+        "Household Managers"
+      ],
+      "unmet_needs": [
+        "Clear return and refund policy",
+        "Customer support hotline"
+      ]
+    }
+  },
+  {
+    "id": "4483ad2a-3e23-4414-926a-35018f93159b",
+    "source": "MouthShut",
+    "platform": "Web",
+    "text": "Horrible they are charged more for delivery and other charges han the material acutal cost was 72 rs total charge was rs 152 imagine looting us. only fools will order from blinkit. u can fool us once but long term u go down the drain",
+    "rating": null,
+    "timestamp": "2026-07-19T15:04:39Z",
+    "url": "https://www.mouthshut.com/product-reviews/blinkit-reviews-925738270",
+    "enrichment": {
+      "themes": [
+        "Delivery Cost",
+        "Trust"
+      ],
+      "sentiment": "Negative",
+      "segment": [
+        "Budget Shoppers"
+      ],
+      "unmet_needs": [
+        "Lower delivery charges",
+        "Transparency in pricing"
+      ]
+    }
   }
 ]
