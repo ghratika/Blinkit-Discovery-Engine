@@ -59,17 +59,24 @@ def main():
     try:
         run_input = {
             "searches": KEYWORDS,
-            "type": "post",
+            "subreddits": ["india", "bangalore", "mumbai", "delhi", "gurgaon"],
             "sort": "new",
             "time": "year",
-            "maxItems": MAX_ITEMS
+            "maxItems": MAX_ITEMS,
+            "limit": MAX_ITEMS
         }
         
         print(f"Triggering Apify automation-lab/reddit-scraper for keywords: {KEYWORDS}...")
         run = client.actor("automation-lab/reddit-scraper").call(run_input=run_input)
         
         print(f"Apify run finished. Fetching dataset...")
-        for item in client.dataset(run["defaultDatasetId"]).iterate_items():
+        
+        # apify-client v3 uses attributes (e.g., run.default_dataset_id)
+        dataset_id = getattr(run, "default_dataset_id", None)
+        if not dataset_id and isinstance(run, dict):
+            dataset_id = run.get("default_dataset_id") or run.get("defaultDatasetId")
+            
+        for item in client.dataset(dataset_id).iterate_items():
             # Extract relevant fields
             title = item.get("title", "")
             body = item.get("text", "") or item.get("selftext", "")
