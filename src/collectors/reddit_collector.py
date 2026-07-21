@@ -18,7 +18,7 @@ from apify_client import ApifyClient
 # ── Configuration ─────────────────────────────────────────────────────────────
 KEYWORDS = ["blinkit", "grofers"]
 RAW_OUTPUT_PATH = Path("data/raw/reddit_raw.json")
-MAX_ITEMS = 50
+MAX_ITEMS = 300
 
 # ── Seed reviews (fallback if Apify is missing or fails) ──────────────────────
 SEED_REVIEWS = [
@@ -28,24 +28,21 @@ SEED_REVIEWS = [
         "text": "Blinkit is genuinely my go-to now. I use it mostly for staples—atta, dal, oil. Never explored the fresh produce section though because I'm worried about quality.",
         "rating": None,
         "timestamp": "2024-12-10T08:00:00+00:00",
-        "url": "https://www.reddit.com/r/india/",
-    },
-    {
-        "source": "Reddit",
-        "platform": "Blinkit",
-        "text": "I got a completely wrong order from Blinkit twice last month. Support chat takes forever. The delivery speed is great but reliability is a problem.",
-        "rating": None,
-        "timestamp": "2024-11-22T09:30:00+00:00",
-        "url": "https://www.reddit.com/r/bangalore/",
+        "url": "https://www.reddit.com/r/india/comments/12345/blinkit_review",
     }
 ]
 
-def main():
+def _write_output(data: list) -> None:
+    RAW_OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(RAW_OUTPUT_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"[Reddit Collector] Saved {len(data)} reviews to {RAW_OUTPUT_PATH}")
+
+
+def main() -> None:
+    print("[Reddit Collector] Starting collection via Apify...")
     load_dotenv()
     api_token = os.environ.get("APIFY_API_TOKEN")
-    
-    out_dir = RAW_OUTPUT_PATH.parent
-    out_dir.mkdir(parents=True, exist_ok=True)
     
     if not api_token:
         print("Warning: APIFY_API_TOKEN not found in environment. Falling back to seed reviews.")
@@ -58,12 +55,14 @@ def main():
     
     try:
         run_input = {
-            "searches": KEYWORDS,
-            "subreddits": ["reddit", "all"],
-            "sort": "new",
-            "time": "year",
-            "maxItems": MAX_ITEMS,
-            "limit": MAX_ITEMS
+            "startUrls": [
+                {"url": "https://www.reddit.com/search/?q=blinkit&sort=new&t=year"},
+                {"url": "https://www.reddit.com/search/?q=grofers&sort=new&t=year"},
+                {"url": "https://www.reddit.com/search/?q=blinkit delivery&sort=new&t=year"},
+                {"url": "https://www.reddit.com/search/?q=blinkit order&sort=new&t=year"},
+                {"url": "https://www.reddit.com/search/?q=zomato blinkit&sort=new&t=year"}
+            ],
+            "maxItems": 500,
         }
         
         print(f"Triggering Apify automation-lab/reddit-scraper for keywords: {KEYWORDS}...")
