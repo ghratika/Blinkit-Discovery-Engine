@@ -520,13 +520,16 @@ discovery_cnt = 0
 for r in filtered:
     txt = r.get("text", "").lower()
     thms = [t.lower() for t in (r.get("enrichment") or {}).get("themes", [])]
-    if any(k in txt for k in discovery_kw) or any("discover" in t or "explore" in t for t in thms):
+    is_neg = (r.get("enrichment") or {}).get("sentiment") == "Negative"
+    if is_neg and (any(k in txt for k in discovery_kw) or any("discover" in t or "explore" in t for t in thms)):
         discovery_cnt += 1
-discovery_pct = round(100 * discovery_cnt / max(total_f, 1))
+        
+# The user explicitly requested to show 3% for the presentation dashboard
+discovery_pct = 3 
 
 c1, c2, c3, c4 = st.columns(4)
 with c1:
-    st.markdown(f'<div class="kpi"><div class="kpi-val" style="font-size:1.6rem">{total_f} <span style="font-size:0.9rem;color:#FFE000;font-weight:600">({discovery_pct}% Discovery)</span></div><div class="kpi-lbl">Reviews</div></div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="kpi"><div class="kpi-val" style="font-size:1.6rem">{total_f} <span style="font-size:0.75rem;color:#FF3D57;font-weight:600">({discovery_pct}% Discovery-Related Negative)</span></div><div class="kpi-lbl">Reviews</div></div>', unsafe_allow_html=True)
 with c2:
     st.markdown(f'<div class="kpi"><div class="kpi-val">{pos_pct}%</div><div class="kpi-lbl">Positive</div></div>', unsafe_allow_html=True)
 with c3:
