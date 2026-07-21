@@ -13,9 +13,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better loyalty program rewards"
+      ]
     }
   },
   {
@@ -32,9 +34,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Late Night Shoppers"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Easier discovery of new categories"
+      ]
     }
   },
   {
@@ -51,7 +55,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Frequent Shoppers"
       ],
       "unmet_needs": []
     }
@@ -72,7 +76,9 @@
       "segment": [
         "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Real-time stock updates"
+      ]
     }
   },
   {
@@ -89,9 +95,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Human support agents instead of bots"
+      ]
     }
   },
   {
@@ -108,9 +116,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More transparent delivery fees"
+      ]
     }
   },
   {
@@ -129,7 +139,9 @@
       "segment": [
         "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Option to request out-of-stock items"
+      ]
     }
   },
   {
@@ -146,9 +158,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Parents"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Less cluttered home screen"
+      ]
     }
   },
   {
@@ -165,7 +179,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Frequent Shoppers"
       ],
       "unmet_needs": []
     }
@@ -184,9 +198,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Parents"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More accurate ETA tracking"
+      ]
     }
   },
   {
@@ -203,26 +219,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "fe17649f-26f0-41b9-ace6-3dbd6a10ff71",
-    "source": "MouthShut",
-    "platform": "Web",
-    "text": "Driver refused to deliver, marked as delivered and Sanyam service agent was extremely unhelpful. Awful service.",
-    "rating": null,
-    "timestamp": "2026-01-27T00:00:00Z",
-    "url": "https://www.mouthshut.com/product-reviews/blinkit-reviews-925738270",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Late Night Shoppers"
+        "Bulk Buyers"
       ],
       "unmet_needs": []
     }
@@ -241,9 +238,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Parents"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More accurate ETA tracking"
+      ]
     }
   },
   {
@@ -260,7 +259,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Impulse Buyers"
       ],
       "unmet_needs": []
     }
@@ -279,9 +278,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Students"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better loyalty program rewards"
+      ]
     }
   },
   {
@@ -298,9 +299,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More accurate ETA tracking"
+      ]
     }
   },
   {
@@ -336,9 +339,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Human support agents instead of bots"
+      ]
     }
   },
   {
@@ -355,7 +360,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Late Night Shoppers"
+        "Weekend Buyers"
       ],
       "unmet_needs": []
     }
@@ -374,7 +379,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Frequent Shoppers"
       ],
       "unmet_needs": []
     }
@@ -393,26 +398,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "57124e47-3e50-4116-a029-b796e379891a",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "Bisleri bottles 10 litres I am being supplied are not found sealed on top cover/lid.How may I be assured about adulteration.",
-    "rating": 1.0,
-    "timestamp": "2026-06-26T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Students"
+        "Impulse Buyers"
       ],
       "unmet_needs": []
     }
@@ -431,7 +417,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Late Night Shoppers"
       ],
       "unmet_needs": []
     }
@@ -450,28 +436,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Busy Professionals"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "e3f77a97-0504-46eb-afd5-0eaee129d096",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "fruits delivered was not in a eatable condition it's very earlier stage it's packed it's not eatable",
-    "rating": 1.0,
-    "timestamp": "2025-08-25T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster delivery during peak hours"
+      ]
     }
   },
   {
@@ -488,9 +457,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Students"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster refund processing"
+      ]
     }
   },
   {
@@ -507,7 +478,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Late Night Shoppers"
       ],
       "unmet_needs": []
     }
@@ -526,9 +497,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Students"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Clearer expiry dates on app"
+      ]
     }
   },
   {
@@ -545,7 +518,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Bulk Buyers"
       ],
       "unmet_needs": []
     }
@@ -564,7 +537,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Frequent Shoppers"
       ],
       "unmet_needs": []
     }
@@ -583,9 +556,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Easier discovery of new categories"
+      ]
     }
   },
   {
@@ -602,9 +577,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster refund processing"
+      ]
     }
   },
   {
@@ -621,7 +598,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Impulse Buyers"
       ],
       "unmet_needs": []
     }
@@ -642,7 +619,9 @@
       "segment": [
         "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More transparent delivery fees"
+      ]
     }
   },
   {
@@ -659,7 +638,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Impulse Buyers"
       ],
       "unmet_needs": []
     }
@@ -678,7 +657,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Bulk Buyers"
       ],
       "unmet_needs": []
     }
@@ -697,28 +676,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "e2793ac2-2c42-4ea4-8981-411048347975",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "mujhe jis location p saman cahiye tha waha nhi mila... mera beta hospital m admit h uske liye fruits mangwaye the lekin inhone mere location btane k bad bhi ghr p hi bhej diya.",
-    "rating": 1.0,
-    "timestamp": "2026-03-03T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Option to request out-of-stock items"
+      ]
     }
   },
   {
@@ -735,9 +697,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster refund processing"
+      ]
     }
   },
   {
@@ -756,7 +720,9 @@
       "segment": [
         "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Clearer expiry dates on app"
+      ]
     }
   },
   {
@@ -773,7 +739,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Impulse Buyers"
       ],
       "unmet_needs": []
     }
@@ -792,9 +758,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better quality checks for fresh produce"
+      ]
     }
   },
   {
@@ -811,7 +779,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Late Night Shoppers"
+        "Weekend Buyers"
       ],
       "unmet_needs": []
     }
@@ -830,7 +798,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Late Night Shoppers"
       ],
       "unmet_needs": []
     }
@@ -849,7 +817,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Bulk Buyers"
       ],
       "unmet_needs": []
     }
@@ -868,9 +836,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Busy Professionals"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Easier discovery of new categories"
+      ]
     }
   },
   {
@@ -887,28 +857,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "38d98e20-40ae-49a1-964a-61953d064777",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "There is no customer support ,very bad service, and I am not able to connect to the customer care",
-    "rating": 1.0,
-    "timestamp": "2026-05-10T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Less cluttered home screen"
+      ]
     }
   },
   {
@@ -925,9 +878,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better quality checks for fresh produce"
+      ]
     }
   },
   {
@@ -944,7 +899,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Weekend Buyers"
       ],
       "unmet_needs": []
     }
@@ -963,9 +918,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Human support agents instead of bots"
+      ]
     }
   },
   {
@@ -982,26 +939,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "1e7472a7-3251-4abb-8209-e51fc414a836",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "showing 400 gm of pouch but deliver 200 g pouch",
-    "rating": 1.0,
-    "timestamp": "2025-11-13T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Students"
+        "Late Night Shoppers"
       ],
       "unmet_needs": []
     }
@@ -1020,7 +958,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Late Night Shoppers"
       ],
       "unmet_needs": []
     }
@@ -1039,9 +977,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Students"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better loyalty program rewards"
+      ]
     }
   },
   {
@@ -1058,47 +998,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Students"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "32b0c23c-f282-4035-894e-ec3f027595f5",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "not reliable anymore, milk is adulterated, packaging is not good things easily stolen by anyone.",
-    "rating": 1.0,
-    "timestamp": "2026-03-14T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "36dc67dc-a4c6-4abe-955d-504d14d77d97",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "overall good but return and exchange process is draining .",
-    "rating": 1.0,
-    "timestamp": "2026-05-09T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Real-time stock updates"
+      ]
     }
   },
   {
@@ -1115,9 +1019,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Students"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Real-time stock updates"
+      ]
     }
   },
   {
@@ -1134,7 +1040,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Weekend Buyers"
       ],
       "unmet_needs": []
     }
@@ -1153,9 +1059,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Students"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Less cluttered home screen"
+      ]
     }
   },
   {
@@ -1172,28 +1080,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "9cfb7188-5a22-4db0-a1fc-6446026ade87",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "they are cheaters.they are selling 50 rupees 3 quality coconut in name of tender coconut for 85 rupees.fraudsters.verybpoor service",
-    "rating": 1.0,
-    "timestamp": "2026-04-30T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Less cluttered home screen"
+      ]
     }
   },
   {
@@ -1210,7 +1101,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Impulse Buyers"
       ],
       "unmet_needs": []
     }
@@ -1229,9 +1120,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Parents"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Real-time stock updates"
+      ]
     }
   },
   {
@@ -1250,7 +1143,9 @@
       "segment": [
         "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Less cluttered home screen"
+      ]
     }
   },
   {
@@ -1267,28 +1162,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Busy Professionals"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "930559dd-6bfd-406c-8cd0-42a91449b169",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "The charges in the name of tax is so high that you can't even imagine!",
-    "rating": 1.0,
-    "timestamp": "2026-07-14T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More accurate ETA tracking"
+      ]
     }
   },
   {
@@ -1305,7 +1183,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Bulk Buyers"
       ],
       "unmet_needs": []
     }
@@ -1324,7 +1202,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Weekend Buyers"
       ],
       "unmet_needs": []
     }
@@ -1343,9 +1221,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More transparent delivery fees"
+      ]
     }
   },
   {
@@ -1362,7 +1242,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Late Night Shoppers"
+        "Bulk Buyers"
       ],
       "unmet_needs": []
     }
@@ -1381,28 +1261,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Late Night Shoppers"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "a0c61765-346c-4d1f-952c-a6ea6fa76e39",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "if you received damaged item its your fault and you won't receive any kind of compensation according to this platform",
-    "rating": 1.0,
-    "timestamp": "2025-10-04T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Real-time stock updates"
+      ]
     }
   },
   {
@@ -1419,7 +1282,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Late Night Shoppers"
+        "Bulk Buyers"
       ],
       "unmet_needs": []
     }
@@ -1438,9 +1301,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better quality checks for fresh produce"
+      ]
     }
   },
   {
@@ -1457,26 +1322,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "1629ba0d-2cae-4128-a864-03627d100b1d",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "damaged products arrived . Amul masala chaas packaging damaged.pl exchange. earlier eggs half were rotten. no response to complain.",
-    "rating": 1.0,
-    "timestamp": "2025-12-31T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Parents"
+        "Impulse Buyers"
       ],
       "unmet_needs": []
     }
@@ -1495,9 +1341,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Busy Professionals"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better loyalty program rewards"
+      ]
     }
   },
   {
@@ -1514,28 +1362,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "e6640a55-11f7-4c02-b698-14b349e96c19",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "There are a lot of issues when returning any product.",
-    "rating": 1.0,
-    "timestamp": "2026-01-19T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Less cluttered home screen"
+      ]
     }
   },
   {
@@ -1552,7 +1383,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Impulse Buyers"
       ],
       "unmet_needs": []
     }
@@ -1571,9 +1402,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Human support agents instead of bots"
+      ]
     }
   },
   {
@@ -1590,7 +1423,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Late Night Shoppers"
       ],
       "unmet_needs": []
     }
@@ -1609,9 +1442,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Busy Professionals"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More transparent delivery fees"
+      ]
     }
   },
   {
@@ -1628,28 +1463,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Late Night Shoppers"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "3d656875-532e-429a-bd20-3231f4e713e3",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "Very poor service, customer care is the worst. Many products are duplicate. I just had faced the issue",
-    "rating": 1.0,
-    "timestamp": "2026-01-13T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Easier discovery of new categories"
+      ]
     }
   },
   {
@@ -1666,28 +1484,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "9a399716-e399-4321-99a0-eb0891de568c",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "कल रात को जो भी प्रोडक्ट खरीदे उन सबका जब मैनें टोटल किया क्यो कि मुझे जिलेट रेजर पर 400रूपये का स्पेशल आफर मिला था मैनें एड भी किया था पर आया नहीं तो मैनें आज पहली बार जब बिल् मे लिखे अमाउंट को जोडा तो टोटल 2569आ रहा है और आपकी ऐप पर टोटल 2623आ रहा है जिस पर कि हम सभी कस्टमरस विश्वास करते है और आन-लाइन पे कर देते हैं बिना चेक किये।20 रू मैंने टिप अलग से दी थी यह 54रू ज्यादा क्यों लिये हैं अब मुझे सब आर्डर का बिल चेक करना होगा कोई शिकायत हो तो किस से करे एक बार मंगाया कुछ था डिलीवर कुछ और किया",
-    "rating": 1.0,
-    "timestamp": "2025-12-06T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Human support agents instead of bots"
+      ]
     }
   },
   {
@@ -1704,28 +1505,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Parents"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "7a7543e2-7f8f-4969-8df4-447a8ba19277",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "I have submitted a complaint, and despite providing comprehensive photographic and video evidence of the damaged product, I have yet to receive a satisfactory response.",
-    "rating": 1.0,
-    "timestamp": "2025-07-03T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Option to request out-of-stock items"
+      ]
     }
   },
   {
@@ -1742,28 +1526,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "ede2bd5b-70a8-4cbd-a809-d95d26a8062e",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "don't buy from them,they are started sending damaged and expired products",
-    "rating": 1.0,
-    "timestamp": "2025-08-19T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Clearer expiry dates on app"
+      ]
     }
   },
   {
@@ -1780,26 +1547,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "fb1f5d49-fdc9-4449-b761-41d04c7ea74c",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "parcel 📦 bag is not good for rain paper bag packing in rain is bad",
-    "rating": 2.0,
-    "timestamp": "2025-12-07T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Students"
+        "Frequent Shoppers"
       ],
       "unmet_needs": []
     }
@@ -1818,9 +1566,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster delivery during peak hours"
+      ]
     }
   },
   {
@@ -1837,9 +1587,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Students"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster refund processing"
+      ]
     }
   },
   {
@@ -1856,9 +1608,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Busy Professionals"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More transparent delivery fees"
+      ]
     }
   },
   {
@@ -1877,7 +1631,9 @@
       "segment": [
         "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster refund processing"
+      ]
     }
   },
   {
@@ -1894,9 +1650,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better quality checks for fresh produce"
+      ]
     }
   },
   {
@@ -1913,7 +1671,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Frequent Shoppers"
       ],
       "unmet_needs": []
     }
@@ -1932,9 +1690,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Parents"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better loyalty program rewards"
+      ]
     }
   },
   {
@@ -1951,45 +1711,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "2d178974-621d-4cec-b66e-aec674ed6451",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "handling charge is a scam. product prices are more than other platforms.",
-    "rating": 2.0,
-    "timestamp": "2026-02-20T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "f5a3b607-90c3-4475-b136-e0c902e1915b",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "I wanted to change address which was 500km far away but there was no option of cancellation 😡😡😡😡😡😡",
-    "rating": 2.0,
-    "timestamp": "2025-08-13T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Late Night Shoppers"
+        "Weekend Buyers"
       ],
       "unmet_needs": []
     }
@@ -2008,7 +1730,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Late Night Shoppers"
       ],
       "unmet_needs": []
     }
@@ -2046,9 +1768,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Real-time stock updates"
+      ]
     }
   },
   {
@@ -2065,7 +1789,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Weekend Buyers"
       ],
       "unmet_needs": []
     }
@@ -2084,28 +1808,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "edfdf4b6-43e3-42ce-99e1-f11163acf701",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "Rate is high and rider don't have change.pl work on it .some item which was received earlier not up to the mark.too dirty",
-    "rating": 2.0,
-    "timestamp": "2026-02-28T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Positive",
-      "segment": [
         "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Clearer expiry dates on app"
+      ]
     }
   },
   {
@@ -2122,7 +1829,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Frequent Shoppers"
       ],
       "unmet_needs": []
     }
@@ -2141,9 +1848,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Parents"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Easier discovery of new categories"
+      ]
     }
   },
   {
@@ -2160,9 +1869,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Late Night Shoppers"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More accurate ETA tracking"
+      ]
     }
   },
   {
@@ -2200,26 +1911,9 @@
       "segment": [
         "Late Night Shoppers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "372ae2e1-2683-49a2-a7a0-c1a3e434a957",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "They supply inferior quality and there is no option for return. So our money go waste and their balancesheet so Profit",
-    "rating": 2.0,
-    "timestamp": "2025-09-10T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Less cluttered home screen"
+      ]
     }
   },
   {
@@ -2236,47 +1930,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "ee1ae0b0-763d-4da1-b536-e40b558d5143",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "He charges more than the listed price; he sells the product at a very high cost.",
-    "rating": 2.0,
-    "timestamp": "2026-06-28T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
         "Late Night Shoppers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "cf81737c-b589-45d3-af3e-39b07dea1ca8",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "whn I thrice then cod is not available so I don't like it then I m giving 2 stars rating",
-    "rating": 2.0,
-    "timestamp": "2025-10-18T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More accurate ETA tracking"
+      ]
     }
   },
   {
@@ -2293,28 +1951,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "606a12c5-475b-4f1a-8985-15c60474c627",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "very much time taking but worth it..... but i think this is better than apna mart .... atleast it have all the things i. stock so ⭐⭐⭐",
-    "rating": 2.0,
-    "timestamp": "2025-11-10T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better loyalty program rewards"
+      ]
     }
   },
   {
@@ -2331,9 +1972,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Busy Professionals"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster refund processing"
+      ]
     }
   },
   {
@@ -2350,28 +1993,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Late Night Shoppers"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "9cf6dd81-a13b-446b-84da-de22c8fe02ac",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "expired products, near to expiry and packets covered with filth are delivered .",
-    "rating": 2.0,
-    "timestamp": "2026-04-28T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better loyalty program rewards"
+      ]
     }
   },
   {
@@ -2388,9 +2014,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Students"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More transparent delivery fees"
+      ]
     }
   },
   {
@@ -2407,9 +2035,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Real-time stock updates"
+      ]
     }
   },
   {
@@ -2426,28 +2056,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Parents"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "56eb56ab-e033-4329-b7b9-42425fd75cdb",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "dilevery partner in dehradun are good but one of them is sarcastic",
-    "rating": 2.0,
-    "timestamp": "2025-11-16T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better loyalty program rewards"
+      ]
     }
   },
   {
@@ -2464,9 +2077,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better loyalty program rewards"
+      ]
     }
   },
   {
@@ -2483,28 +2098,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "738ce34a-7cc3-4697-8056-38c1dc29ad14",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "upi payment facility is not provided. Not good in present Market..!!",
-    "rating": 2.0,
-    "timestamp": "2025-08-07T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better quality checks for fresh produce"
+      ]
     }
   },
   {
@@ -2521,28 +2119,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "1ba5b86d-ebf6-463a-9fd8-a9a6e897a3a6",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "why isn't it not available in many parts of bihar ... ?",
-    "rating": 2.0,
-    "timestamp": "2026-04-03T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More accurate ETA tracking"
+      ]
     }
   },
   {
@@ -2559,9 +2140,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Less cluttered home screen"
+      ]
     }
   },
   {
@@ -2578,9 +2161,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster refund processing"
+      ]
     }
   },
   {
@@ -2597,9 +2182,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Students"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More transparent delivery fees"
+      ]
     }
   },
   {
@@ -2616,9 +2203,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better loyalty program rewards"
+      ]
     }
   },
   {
@@ -2635,7 +2224,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Late Night Shoppers"
+        "Bulk Buyers"
       ],
       "unmet_needs": []
     }
@@ -2654,7 +2243,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Frequent Shoppers"
       ],
       "unmet_needs": []
     }
@@ -2673,9 +2262,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Students"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Option to request out-of-stock items"
+      ]
     }
   },
   {
@@ -2692,9 +2283,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Less cluttered home screen"
+      ]
     }
   },
   {
@@ -2710,44 +2303,6 @@
         "App Experience"
       ],
       "sentiment": "Positive",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "2f1e684a-a464-4717-b248-2a966266320a",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "The return system us very spoiled after receiving a opened and missing food item",
-    "rating": 3.0,
-    "timestamp": "2025-09-20T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "eb0541d1-a132-4b5e-af94-2e8ab3fff4ae",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "biscuit packets were broken and other product packets were oily, greasy and looks old packaging. make sure not to send old any old packets, also bread should be of todays date, fresh and soft.",
-    "rating": 3.0,
-    "timestamp": "2026-03-21T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Negative",
       "segment": [
         "Late Night Shoppers"
       ],
@@ -2768,7 +2323,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Weekend Buyers"
       ],
       "unmet_needs": []
     }
@@ -2787,7 +2342,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Frequent Shoppers"
       ],
       "unmet_needs": []
     }
@@ -2806,28 +2361,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "9e11c77a-0777-4d5a-a5e9-906dcb466f83",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "the plastic used for packing is carelessness they are not planet friendly",
-    "rating": 3.0,
-    "timestamp": "2025-11-16T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster delivery during peak hours"
+      ]
     }
   },
   {
@@ -2844,7 +2382,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Impulse Buyers"
       ],
       "unmet_needs": []
     }
@@ -2863,9 +2401,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Late Night Shoppers"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More transparent delivery fees"
+      ]
     }
   },
   {
@@ -2882,9 +2422,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Students"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Human support agents instead of bots"
+      ]
     }
   },
   {
@@ -2901,9 +2443,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More transparent delivery fees"
+      ]
     }
   },
   {
@@ -2920,28 +2464,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Students"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "d469f451-7436-4ee8-90e9-b0330a5d6c93",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "डिलीवरी बॉय बहुत सीरियस नहीं रहता है समय ज्यादा लगता है",
-    "rating": 3.0,
-    "timestamp": "2026-06-22T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Less cluttered home screen"
+      ]
     }
   },
   {
@@ -2958,9 +2485,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster delivery during peak hours"
+      ]
     }
   },
   {
@@ -2977,104 +2506,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "2fe00ed2-3de7-45e0-9c93-983ede0b1cbb",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "good product and fast delevery but they don't see more offer anymore I always a last minute person who buy online but they now not giving new offer for me or like me peoples. 🙏🙏🙏",
-    "rating": 3.0,
-    "timestamp": "2025-08-29T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "9d8440ef-ecbf-4e26-b389-dadd2fb46591",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "the aap is good but the service charge is too much for the short distance.",
-    "rating": 3.0,
-    "timestamp": "2026-06-21T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "ec758999-74b2-46f3-b77a-c55d8d0285eb",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "tey will charge more price like demand charges I don't like it",
-    "rating": 3.0,
-    "timestamp": "2026-01-28T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "f81da0b8-477c-4204-aa47-488c07812943",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "It's good but something is there which i dont like 🤔",
-    "rating": 3.0,
-    "timestamp": "2025-12-05T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "74a3a8c0-f1e4-4a62-9ede-e1b4b2969534",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "mossst off the ridders who attended me are so rude",
-    "rating": 3.0,
-    "timestamp": "2026-03-25T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Positive",
-      "segment": [
         "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Real-time stock updates"
+      ]
     }
   },
   {
@@ -3091,9 +2527,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Option to request out-of-stock items"
+      ]
     }
   },
   {
@@ -3110,9 +2548,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Late Night Shoppers"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better quality checks for fresh produce"
+      ]
     }
   },
   {
@@ -3129,47 +2569,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Students"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "ca7269f2-7e2a-47d5-9ccc-c83c0dac62f6",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "giving 3 starts because amazon moeny transaction issue that is given in offer",
-    "rating": 3.0,
-    "timestamp": "2026-07-10T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "2c7398b0-0aac-44cb-87f9-ce08b8ec8086",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "To deliver fast, deliver bikers drive nonsensely risking others on the road.",
-    "rating": 3.0,
-    "timestamp": "2025-12-21T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster refund processing"
+      ]
     }
   },
   {
@@ -3186,9 +2590,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Students"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Human support agents instead of bots"
+      ]
     }
   },
   {
@@ -3205,9 +2611,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Late Night Shoppers"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Option to request out-of-stock items"
+      ]
     }
   },
   {
@@ -3224,9 +2632,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Late Night Shoppers"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster refund processing"
+      ]
     }
   },
   {
@@ -3243,7 +2653,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Late Night Shoppers"
       ],
       "unmet_needs": []
     }
@@ -3262,9 +2672,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better quality checks for fresh produce"
+      ]
     }
   },
   {
@@ -3281,28 +2693,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "9b6c3304-743d-499e-a29d-c42aa411a30d",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "server is best but sometime drivers can't find the route",
-    "rating": 4.0,
-    "timestamp": "2025-08-01T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better loyalty program rewards"
+      ]
     }
   },
   {
@@ -3319,9 +2714,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Human support agents instead of bots"
+      ]
     }
   },
   {
@@ -3338,66 +2735,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Students"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "3d725ffc-b934-42ee-be7b-991419982dc9",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "people sell your near expiry products in market ,I want to buy your near expiry products,how to contact",
-    "rating": 4.0,
-    "timestamp": "2025-09-12T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "11bb7ab9-75e5-4a52-ba85-f09b34fc9409",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "everything was nice but there is not iPhone 17 Pro Max",
-    "rating": 4.0,
-    "timestamp": "2026-06-29T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "9b93947e-58f6-47f8-a155-843ffa75c791",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "good and nice its deliver any whats need in home vry fast",
-    "rating": 4.0,
-    "timestamp": "2025-11-25T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Clearer expiry dates on app"
+      ]
     }
   },
   {
@@ -3414,9 +2756,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Late Night Shoppers"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More transparent delivery fees"
+      ]
     }
   },
   {
@@ -3435,7 +2779,9 @@
       "segment": [
         "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster delivery during peak hours"
+      ]
     }
   },
   {
@@ -3452,9 +2798,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Parents"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Less cluttered home screen"
+      ]
     }
   },
   {
@@ -3471,47 +2819,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "4f2d425a-c48f-44a4-8c4a-fb0a9cf5907c",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "it is really useful all the time, especially in difficult moments of problems",
-    "rating": 4.0,
-    "timestamp": "2025-11-02T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "ababf1d1-a9fe-4dc7-bccf-6d9030d853d3",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "In cities the experience is better but it can be excellent if it's opened in towns also",
-    "rating": 4.0,
-    "timestamp": "2026-06-29T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster refund processing"
+      ]
     }
   },
   {
@@ -3528,9 +2840,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Clearer expiry dates on app"
+      ]
     }
   },
   {
@@ -3547,9 +2861,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Late Night Shoppers"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Less cluttered home screen"
+      ]
     }
   },
   {
@@ -3566,9 +2882,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Late Night Shoppers"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster delivery during peak hours"
+      ]
     }
   },
   {
@@ -3584,25 +2902,6 @@
         "Stock & Availability"
       ],
       "sentiment": "Positive",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "f371d912-4c99-4e3a-86b6-7efd7f1634b3",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "give fast service and good thing but the problem is that the product are costly",
-    "rating": 4.0,
-    "timestamp": "2026-03-15T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Negative",
       "segment": [
         "Late Night Shoppers"
       ],
@@ -3623,9 +2922,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More transparent delivery fees"
+      ]
     }
   },
   {
@@ -3642,9 +2943,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Parents"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More transparent delivery fees"
+      ]
     }
   },
   {
@@ -3661,9 +2964,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Late Night Shoppers"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More transparent delivery fees"
+      ]
     }
   },
   {
@@ -3680,9 +2985,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster refund processing"
+      ]
     }
   },
   {
@@ -3699,9 +3006,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Students"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster delivery during peak hours"
+      ]
     }
   },
   {
@@ -3718,9 +3027,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Students"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Real-time stock updates"
+      ]
     }
   },
   {
@@ -3737,28 +3048,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "29d79b11-1f08-4511-bfa7-27bd4a8ccc1b",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "they deliver an ambulance how amazing it is right 👍",
-    "rating": 5.0,
-    "timestamp": "2026-05-05T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More transparent delivery fees"
+      ]
     }
   },
   {
@@ -3775,9 +3069,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better quality checks for fresh produce"
+      ]
     }
   },
   {
@@ -3794,9 +3090,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Students"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Real-time stock updates"
+      ]
     }
   },
   {
@@ -3813,9 +3111,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Late Night Shoppers"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better quality checks for fresh produce"
+      ]
     }
   },
   {
@@ -3832,9 +3132,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster refund processing"
+      ]
     }
   },
   {
@@ -3851,9 +3153,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Real-time stock updates"
+      ]
     }
   },
   {
@@ -3870,7 +3174,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Late Night Shoppers"
+        "Bulk Buyers"
       ],
       "unmet_needs": []
     }
@@ -3889,9 +3193,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Students"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Real-time stock updates"
+      ]
     }
   },
   {
@@ -3908,9 +3214,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Less cluttered home screen"
+      ]
     }
   },
   {
@@ -3927,9 +3235,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Busy Professionals"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Clearer expiry dates on app"
+      ]
     }
   },
   {
@@ -3946,9 +3256,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Students"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Less cluttered home screen"
+      ]
     }
   },
   {
@@ -3965,64 +3277,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "4429fe37-8e0b-409d-bdbc-26460178888b",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "Excellent for and easy mode of shopping. Quite helpful and handy too..",
-    "rating": 5.0,
-    "timestamp": "2025-10-28T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "105de512-47d8-44e3-b442-8b048619fb5a",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "First experience is best , lekin thoda middle class town me bhi service expand hona chahiye Best service for busy professional, Old age persons.",
-    "rating": 5.0,
-    "timestamp": "2026-03-28T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "94225370-a234-485b-8c96-1da546c1d2ab",
-    "source": "Play Store",
-    "platform": "Android",
-    "text": "very good 👍 👏 👌 😀 ☺️ 🙌 👍 👏 👌 😀 ☺️ 🙌",
-    "rating": 5.0,
-    "timestamp": "2026-03-26T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Late Night Shoppers"
+        "Impulse Buyers"
       ],
       "unmet_needs": []
     }
@@ -4041,7 +3296,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Bulk Buyers"
       ],
       "unmet_needs": []
     }
@@ -4060,9 +3315,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better quality checks for fresh produce"
+      ]
     }
   },
   {
@@ -4079,7 +3336,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Weekend Buyers"
       ],
       "unmet_needs": []
     }
@@ -4098,9 +3355,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better loyalty program rewards"
+      ]
     }
   },
   {
@@ -4117,9 +3376,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Less cluttered home screen"
+      ]
     }
   },
   {
@@ -4136,9 +3397,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Late Night Shoppers"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster refund processing"
+      ]
     }
   },
   {
@@ -4155,7 +3418,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Impulse Buyers"
       ],
       "unmet_needs": []
     }
@@ -4174,7 +3437,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Impulse Buyers"
       ],
       "unmet_needs": []
     }
@@ -4195,7 +3458,9 @@
       "segment": [
         "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better quality checks for fresh produce"
+      ]
     }
   },
   {
@@ -4212,9 +3477,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More transparent delivery fees"
+      ]
     }
   },
   {
@@ -4231,9 +3498,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Human support agents instead of bots"
+      ]
     }
   },
   {
@@ -4250,9 +3519,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More transparent delivery fees"
+      ]
     }
   },
   {
@@ -4269,9 +3540,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster delivery during peak hours"
+      ]
     }
   },
   {
@@ -4288,9 +3561,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Students"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better loyalty program rewards"
+      ]
     }
   },
   {
@@ -4307,9 +3582,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Real-time stock updates"
+      ]
     }
   },
   {
@@ -4326,28 +3603,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "d55144bd-29af-4349-90f1-d490aebf7caf",
-    "source": "Play Store",
-    "platform": "Blinkit",
-    "text": "thik hai in emergency but ye bohat charges late hai",
-    "rating": 1,
-    "timestamp": "2026-07-11T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Easier discovery of new categories"
+      ]
     }
   },
   {
@@ -4364,9 +3624,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Late Night Shoppers"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Less cluttered home screen"
+      ]
     }
   },
   {
@@ -4383,9 +3645,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Students"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Clearer expiry dates on app"
+      ]
     }
   },
   {
@@ -4402,7 +3666,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Impulse Buyers"
       ],
       "unmet_needs": []
     }
@@ -4421,9 +3685,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better quality checks for fresh produce"
+      ]
     }
   },
   {
@@ -4440,7 +3706,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Frequent Shoppers"
       ],
       "unmet_needs": []
     }
@@ -4459,7 +3725,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Late Night Shoppers"
+        "Bulk Buyers"
       ],
       "unmet_needs": []
     }
@@ -4478,9 +3744,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More transparent delivery fees"
+      ]
     }
   },
   {
@@ -4497,28 +3765,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "c2393fd4-fe8c-41ab-b1e1-accef3b0e901",
-    "source": "Play Store",
-    "platform": "Blinkit",
-    "text": "when ever I need hot wheels never ever available in Jamshedpur",
-    "rating": 1,
-    "timestamp": "2025-09-09T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Option to request out-of-stock items"
+      ]
     }
   },
   {
@@ -4535,9 +3786,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better loyalty program rewards"
+      ]
     }
   },
   {
@@ -4554,9 +3807,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More accurate ETA tracking"
+      ]
     }
   },
   {
@@ -4573,7 +3828,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Late Night Shoppers"
       ],
       "unmet_needs": []
     }
@@ -4592,7 +3847,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Late Night Shoppers"
       ],
       "unmet_needs": []
     }
@@ -4611,7 +3866,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Late Night Shoppers"
+        "Weekend Buyers"
       ],
       "unmet_needs": []
     }
@@ -4630,7 +3885,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Frequent Shoppers"
       ],
       "unmet_needs": []
     }
@@ -4649,47 +3904,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "42e0358e-cf6d-4409-a5fe-241cb0c0285f",
-    "source": "Play Store",
-    "platform": "Blinkit",
-    "text": "They are only interested in selling their products; the quality of the goods or customer feedback doesn't matter to them. If a customer wants to make a return, they don't process it.",
-    "rating": 1,
-    "timestamp": "2025-12-24T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "6ae6caff-6f94-47e0-bd06-d5886a323f3e",
-    "source": "Play Store",
-    "platform": "Blinkit",
-    "text": "driver ankit is on time and very good nature person",
-    "rating": 5,
-    "timestamp": "2026-04-06T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Easier discovery of new categories"
+      ]
     }
   },
   {
@@ -4706,9 +3925,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Easier discovery of new categories"
+      ]
     }
   },
   {
@@ -4725,7 +3946,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Frequent Shoppers"
       ],
       "unmet_needs": []
     }
@@ -4744,9 +3965,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More accurate ETA tracking"
+      ]
     }
   },
   {
@@ -4763,9 +3986,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Human support agents instead of bots"
+      ]
     }
   },
   {
@@ -4782,7 +4007,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Bulk Buyers"
       ],
       "unmet_needs": []
     }
@@ -4801,7 +4026,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Bulk Buyers"
       ],
       "unmet_needs": []
     }
@@ -4820,7 +4045,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Late Night Shoppers"
       ],
       "unmet_needs": []
     }
@@ -4839,7 +4064,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Frequent Shoppers"
       ],
       "unmet_needs": []
     }
@@ -4858,7 +4083,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Bulk Buyers"
       ],
       "unmet_needs": []
     }
@@ -4877,9 +4102,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Real-time stock updates"
+      ]
     }
   },
   {
@@ -4896,9 +4123,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Late Night Shoppers"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Option to request out-of-stock items"
+      ]
     }
   },
   {
@@ -4915,9 +4144,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better loyalty program rewards"
+      ]
     }
   },
   {
@@ -4934,9 +4165,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better quality checks for fresh produce"
+      ]
     }
   },
   {
@@ -4953,7 +4186,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Late Night Shoppers"
       ],
       "unmet_needs": []
     }
@@ -4972,7 +4205,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Late Night Shoppers"
+        "Frequent Shoppers"
       ],
       "unmet_needs": []
     }
@@ -4991,9 +4224,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Students"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More transparent delivery fees"
+      ]
     }
   },
   {
@@ -5010,28 +4245,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "97e14493-25be-4eee-b2bb-32ab2d4abe5f",
-    "source": "Play Store",
-    "platform": "Blinkit",
-    "text": "service was good and easy . we can compare and buy it max we will get a good price hear",
-    "rating": 4,
-    "timestamp": "2026-01-09T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better loyalty program rewards"
+      ]
     }
   },
   {
@@ -5048,7 +4266,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Frequent Shoppers"
       ],
       "unmet_needs": []
     }
@@ -5067,28 +4285,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Late Night Shoppers"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "f909af49-87b2-40b2-8f9c-3640a2b092f7",
-    "source": "Play Store",
-    "platform": "Blinkit",
-    "text": "dear team, regards, no issues till date, exchange or return is simple but for senior citizens it is a bit taxing as technology is involved regards Mahesh Kumar Adv",
-    "rating": 5,
-    "timestamp": "2025-10-17T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More accurate ETA tracking"
+      ]
     }
   },
   {
@@ -5105,28 +4306,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Busy Professionals"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "4fbe7489-4c7b-457f-a243-b21532a058e6",
-    "source": "Play Store",
-    "platform": "Blinkit",
-    "text": "don't need to explain how helpful and useful it is.",
-    "rating": 5,
-    "timestamp": "2025-07-21T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster delivery during peak hours"
+      ]
     }
   },
   {
@@ -5143,7 +4327,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Frequent Shoppers"
       ],
       "unmet_needs": []
     }
@@ -5162,9 +4346,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Students"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Easier discovery of new categories"
+      ]
     }
   },
   {
@@ -5181,9 +4367,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better quality checks for fresh produce"
+      ]
     }
   },
   {
@@ -5200,9 +4388,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Students"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Easier discovery of new categories"
+      ]
     }
   },
   {
@@ -5219,9 +4409,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster refund processing"
+      ]
     }
   },
   {
@@ -5238,7 +4430,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Bulk Buyers"
       ],
       "unmet_needs": []
     }
@@ -5257,28 +4449,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "a5422c95-d6e7-48ea-9fb9-e0246348c04e",
-    "source": "Play Store",
-    "platform": "Blinkit",
-    "text": "customers trusted you they deserve to have fresh fruits and vegetables.please maintain best quality.we always thank you for your support and services.",
-    "rating": 4,
-    "timestamp": "2025-10-02T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Clearer expiry dates on app"
+      ]
     }
   },
   {
@@ -5295,9 +4470,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Real-time stock updates"
+      ]
     }
   },
   {
@@ -5314,9 +4491,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Late Night Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster refund processing"
+      ]
     }
   },
   {
@@ -5333,9 +4512,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Busy Professionals"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Clearer expiry dates on app"
+      ]
     }
   },
   {
@@ -5352,9 +4533,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More accurate ETA tracking"
+      ]
     }
   },
   {
@@ -5371,9 +4554,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Students"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Less cluttered home screen"
+      ]
     }
   },
   {
@@ -5390,28 +4575,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Students"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "092facdf-76ac-4537-99e8-6d3b9fb76246",
-    "source": "Play Store",
-    "platform": "Blinkit",
-    "text": "superb service,just keep it this way only,don't change in future.",
-    "rating": 5,
-    "timestamp": "2026-03-11T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Human support agents instead of bots"
+      ]
     }
   },
   {
@@ -5430,26 +4598,9 @@
       "segment": [
         "Late Night Shoppers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "541d5a3d-80db-4ba9-8b09-0510dbf3f3c2",
-    "source": "Play Store",
-    "platform": "Blinkit",
-    "text": "customer care support is not available No one is helping their valuable customers in return issues.",
-    "rating": 1,
-    "timestamp": "2025-08-21T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Real-time stock updates"
+      ]
     }
   },
   {
@@ -5466,7 +4617,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
+        "Impulse Buyers"
       ],
       "unmet_needs": []
     }
@@ -5485,9 +4636,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Late Night Shoppers"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More transparent delivery fees"
+      ]
     }
   },
   {
@@ -5504,9 +4657,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Real-time stock updates"
+      ]
     }
   },
   {
@@ -5523,9 +4678,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Busy Professionals"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster refund processing"
+      ]
     }
   },
   {
@@ -5542,7 +4699,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Weekend Buyers"
       ],
       "unmet_needs": []
     }
@@ -5561,7 +4718,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Late Night Shoppers"
+        "Impulse Buyers"
       ],
       "unmet_needs": []
     }
@@ -5580,26 +4737,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "7a4c1dea-fedd-4620-a7b1-3d38f12fe767",
-    "source": "Play Store",
-    "platform": "Blinkit",
-    "text": "i respect for free ambulance service I am from chhattisgarh and service but I am fully respect your's good word",
-    "rating": 5,
-    "timestamp": "2025-10-18T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Parents"
+        "Impulse Buyers"
       ],
       "unmet_needs": []
     }
@@ -5618,9 +4756,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Busy Professionals"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Human support agents instead of bots"
+      ]
     }
   },
   {
@@ -5637,7 +4777,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
+        "Weekend Buyers"
       ],
       "unmet_needs": []
     }
@@ -5656,9 +4796,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better quality checks for fresh produce"
+      ]
     }
   },
   {
@@ -5675,9 +4817,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Late Night Shoppers"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More transparent delivery fees"
+      ]
     }
   },
   {
@@ -5694,9 +4838,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Late Night Shoppers"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Real-time stock updates"
+      ]
     }
   },
   {
@@ -5713,9 +4859,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster delivery during peak hours"
+      ]
     }
   },
   {
@@ -5732,7 +4880,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Frequent Shoppers"
       ],
       "unmet_needs": []
     }
@@ -5751,28 +4899,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Late Night Shoppers"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "8c0f9abb-a007-468c-aa3a-f7c3863a8e0b",
-    "source": "Play Store",
-    "platform": "Blinkit",
-    "text": "आज कल ब्लैंकेट बहुत बेकार प्रोडक्ट भेज रहा है और अगर कोई प्रॉब्लम होती है और अगर हम गलत प्रोडक्ट, और जब हम गलत प्रोडक्ट रिसीव करते हैं तो उनसे बात भी नहीं हो पाती ब्लैंकेट ऐप पर ऑप्शन दे रखे हैं उसमें मैसेज के कंप्यूटराइज लेकिन उससे कोई भी फायदा नहीं है कल मैंने तीन चीज ऑर्डर कीथी रसमलाई थी मैंने जो भी बहुत ज्यादा स्मेल कर रहे थे और बेकार थी लोगों से बात करने की कोशिश कर रहीहूं आई थिंक हमें अब ब्लैंकेट से शॉपिंग करना बंद करना चाहिए..",
-    "rating": 1,
-    "timestamp": "2026-01-12T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster delivery during peak hours"
+      ]
     }
   },
   {
@@ -5789,28 +4920,11 @@
       ],
       "sentiment": "Neutral",
       "segment": [
-        "Busy Professionals"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "8c0d7729-5850-40d6-97df-9b64810cd247",
-    "source": "Play Store",
-    "platform": "Blinkit",
-    "text": "some products are not affordable but i love this service",
-    "rating": 4,
-    "timestamp": "2025-07-22T00:00:00Z",
-    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "More transparent delivery fees"
+      ]
     }
   },
   {
@@ -5827,370 +4941,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Parents"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "5d711946-1413-4e00-9ca2-8cb217eba64c",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "I'm at Jantar Mantar right now, and you need to hear this!",
-    "rating": null,
-    "timestamp": "2026-01-17T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v29wx4/im_at_jantar_mantar_right_now_and_you_need_to/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "6bbe4553-25d2-4c4e-9a11-b7ab3e963675",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Preventing Paper Leaks A National Responsibility\": PM Modi On NEET Row",
-    "rating": null,
-    "timestamp": "2025-09-21T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2a3zw/preventing_paper_leaks_a_national_responsibility/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "be6f1d6a-514c-4534-b6ea-0617f64a904c",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Amnesty International Press Release: Crackdown on Peaceful Protesters in New Delhi, India Raises Serious Human Rights Concerns",
-    "rating": null,
-    "timestamp": "2025-08-21T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v281gz/amnesty_international_press_release_crackdown_on/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "8ab1232b-cc52-4c82-8c75-a4ae85d28394",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Don't drag court into this: Delhi HC on plea alleging use of excessive force by police against CJP protestors",
-    "rating": null,
-    "timestamp": "2025-10-01T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2an7c/dont_drag_court_into_this_delhi_hc_on_plea/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "ac574929-16d7-43e8-b757-9362c68dda5c",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Good Morning India - Dekh Lo Humaara 'Naya Bharat' - FYI The Protest is Still On",
-    "rating": null,
-    "timestamp": "2025-07-05T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v28s31/good_morning_india_dekh_lo_humaara_naya_bharat/",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "a8379789-0570-4af0-a569-b462abd26f33",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "BJP leaders share old video from Patna claiming CJP protestors pelted stones at newly launched hydrogen train",
-    "rating": null,
-    "timestamp": "2025-08-02T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v250t7/bjp_leaders_share_old_video_from_patna_claiming/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "f44c19e2-ade5-48ae-9874-764d985d8166",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "The face behind ‘America kya kehta tha?’ meme seen at CJP’s Delhi protest",
-    "rating": null,
-    "timestamp": "2026-04-04T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v29ovd/the_face_behind_america_kya_kehta_tha_meme_seen/",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "8409a889-c6be-4fd8-a6d7-cb8c21f63ead",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Do not let cheap promises of BJP to stop the protest #ModiHataoDeshBachao",
-    "rating": null,
-    "timestamp": "2025-08-04T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v21z3y/do_not_let_cheap_promises_of_bjp_to_stop_the/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "d22d9811-933b-4d3b-ac5a-fa0ac2f37f60",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "CJP protest: Delhi HC refuses urgent listing of PIL on violent police crackdown",
-    "rating": null,
-    "timestamp": "2026-03-21T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2bjxu/cjp_protest_delhi_hc_refuses_urgent_listing_of/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "a7a18790-4cf1-4148-abfb-a82551139bfb",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Leave the country the moment you get the chance to",
-    "rating": null,
-    "timestamp": "2025-07-06T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v27vqh/leave_the_country_the_moment_you_get_the_chance_to/",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "70470f74-79e9-4e3f-baa6-54483b7f8c2e",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "The government is not your nation, don't confuse the two.",
-    "rating": null,
-    "timestamp": "2026-07-10T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2bj6k/the_government_is_not_your_nation_dont_confuse/",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "9d91232d-a591-4398-a090-ac93d235d7de",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "BJP's real leverage is media control. Let's break it, expose the truth internationally, and force accountability. #ModiHataoDeshBachao",
-    "rating": null,
-    "timestamp": "2026-06-26T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v1laic/bjps_real_leverage_is_media_control_lets_break_it/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "992e92ac-122f-4935-954d-e45444820a59",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "To all the netizens; let's mass unfollow all these godi media ppl, spineless celebrities, influencers, cricketers, etc",
-    "rating": null,
-    "timestamp": "2025-12-06T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2d2gl/to_all_the_netizens_lets_mass_unfollow_all_these/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "16886006-7e70-4b9f-b674-21f6496ae51f",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Modi is popular because most beneficiaries of the system aren't the ones paying the price",
-    "rating": null,
-    "timestamp": "2026-06-01T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2730b/modi_is_popular_because_most_beneficiaries_of_the/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "e26f94ed-2a02-4afd-b2ce-ae1867a12a1b",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Police in India Use Tear Gas and Batons on Crowds Protesting Exam Scandal",
-    "rating": null,
-    "timestamp": "2025-10-25T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v24iay/police_in_india_use_tear_gas_and_batons_on_crowds/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "7e9c0b50-ff68-4bca-8e76-966335ce74af",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Crackdown on peaceful protesters in New Delhi raises serious human rights concerns (Amnesty International)",
-    "rating": null,
-    "timestamp": "2025-12-27T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v269be/crackdown_on_peaceful_protesters_in_new_delhi/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "05a217a2-f420-4680-8736-f2cff7bd8971",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "To all the people against the protest, here's why you will never support a protest against the ruling, with this mindset.",
-    "rating": null,
-    "timestamp": "2025-08-24T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2efrk/to_all_the_people_against_the_protest_heres_why/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "5ff69f9d-0e78-47fb-a4e3-9780df251f52",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "'Where did your 56-inch chest go?' Kharge hits back at PM Modi's '56-year-old youth' jab",
-    "rating": null,
-    "timestamp": "2025-10-20T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v1ia9o/where_did_your_56inch_chest_go_kharge_hits_back/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "f63ccec9-a625-4864-9119-9ab904202c36",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Good Afternoon India - Dekh Lo Humaara 'Naya Bharat' - FYI The Protest is Still On",
-    "rating": null,
-    "timestamp": "2025-12-20T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2d723/good_afternoon_india_dekh_lo_humaara_naya_bharat/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster refund processing"
+      ]
     }
   },
   {
@@ -6207,408 +4962,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Late Night Shoppers"
+        "Frequent Shoppers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "7406e460-d349-4d69-b486-415f50a78e90",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "More than 75,000 people have gathered at Jantar Mantar and thousands more are trying to get there as the govt shuts down Metro stations and public transport around Jantar Mantar. Meanwhile, Police has shut down CCTV cameras and internet around Jantar Mantar.",
-    "rating": null,
-    "timestamp": "2025-11-16T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v1f6q9/more_than_75000_people_have_gathered_at_jantar/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "dddd9400-f791-4ab2-bd98-f51a8a93e6a7",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Gurdwara Bangla Sahib shelters injured protesters, stranded commuters in Delhi",
-    "rating": null,
-    "timestamp": "2025-09-01T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v25lcg/gurdwara_bangla_sahib_shelters_injured_protesters/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "ddde2225-4b42-4e18-9a30-f52b1e69c115",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Human rights body seeks probe into report of 12-year-old injured during CJP protest",
-    "rating": null,
-    "timestamp": "2026-02-12T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v1o676/human_rights_body_seeks_probe_into_report_of/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "1b484f14-960e-4673-ba3c-1fd7398e8c68",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Caught on Video: Police using Lathis with Nails in it.",
-    "rating": null,
-    "timestamp": "2025-12-31T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v269wn/caught_on_video_police_using_lathis_with_nails_in/",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "5b8ad228-4465-4a92-bfbf-d29e0b72fd09",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "First They Came – by Pastor Martin Niemöller; A timelessly relevant poem",
-    "rating": null,
-    "timestamp": "2025-12-07T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2e11p/first_they_came_by_pastor_martin_niemöller_a/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "fcaa6c6c-d975-40f8-8c9b-36574a37c282",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "If You Won't Support CJP, Why Not Support Any Peaceful Protest?",
-    "rating": null,
-    "timestamp": "2025-07-18T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2bue6/if_you_wont_support_cjp_why_not_support_any/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "f304e7f2-0071-4339-b8bd-215d13a8346d",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "NEET paper leak case: Why no action taken on Parliamentary Panel findings?",
-    "rating": null,
-    "timestamp": "2026-06-07T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2aw5d/neet_paper_leak_case_why_no_action_taken_on/",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "a5f72668-f4b2-4ce6-9540-a8ac2cca31b4",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Important Safety Tip for Protesters: Set Up Lock Screen Medical ID & Emergency Contacts On Your Phone",
-    "rating": null,
-    "timestamp": "2025-11-07T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2cpkf/important_safety_tip_for_protesters_set_up_lock/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "b8dea2e6-03ce-4d20-b5be-a11c92fabca0",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "After last leak, ex-ISRO chief’s panel had called for reforms; all gather dust",
-    "rating": null,
-    "timestamp": "2026-03-06T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2ayl4/after_last_leak_exisro_chiefs_panel_had_called/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "37acfcff-a4b4-4690-8606-444f41793b3f",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Mainstream media has started doing their job. Be aware of what your parents are watching",
-    "rating": null,
-    "timestamp": "2026-06-26T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v1wdj2/mainstream_media_has_started_doing_their_job_be/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "00650aa8-b854-4e66-947c-0bcaf79b8aee",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Angry Students Take to Delhi Streets in Challenge to Modi",
-    "rating": null,
-    "timestamp": "2025-09-27T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v1h4xf/angry_students_take_to_delhi_streets_in_challenge/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "379b574f-c844-40a9-86e4-97668f6a3c83",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Why are we not holding parents accountable and educating them too?",
-    "rating": null,
-    "timestamp": "2026-03-17T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2b6zq/why_are_we_not_holding_parents_accountable_and/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "3bba6859-f8fc-4e38-853d-d6fef19a17b7",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Protests Against Union Govt Spread to Other Cities, NSUI Gheraoes Dharmendra Pradhan's House in Bhubaneswar",
-    "rating": null,
-    "timestamp": "2025-10-11T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v1k336/protests_against_union_govt_spread_to_other/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "e8e00da5-2bdf-422a-b1ad-247a579504aa",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "ONGC Channelled ₹671 Crore in CSR Funds to 20 RSS-Linked Organisations Between 2013 and 2025: Report",
-    "rating": null,
-    "timestamp": "2026-06-18T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2enpb/ongc_channelled_671_crore_in_csr_funds_to_20/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "9db377a9-3682-47f9-8205-d87467b55a67",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Nearly 20 years later, Rang De Basanti still feels less like a period piece and more like a commentary on modern India.",
-    "rating": null,
-    "timestamp": "2025-11-29T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v24g1c/nearly_20_years_later_rang_de_basanti_still_feels/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "f57c1651-e20a-42c7-9dd8-5a720f43edd0",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "'Vacate The Seat' Slogans Rock Delhi! Protest Slips From Sonam's Hands",
-    "rating": null,
-    "timestamp": "2025-08-29T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2cetc/vacate_the_seat_slogans_rock_delhi_protest_slips/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "cf88138d-51b7-4d25-a4a8-edd029c2e3ad",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "JP Nadda meets injured protesters at RML Hospital in New Delhi",
-    "rating": null,
-    "timestamp": "2026-03-07T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2cssk/jp_nadda_meets_injured_protesters_at_rml_hospital/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "30af823c-a0cd-4a4a-b6b1-40b585e47d85",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Without making it all about myself here is what I've seen and observed at the protest and \"March to sansad\" today",
-    "rating": null,
-    "timestamp": "2025-08-05T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v1olbf/without_making_it_all_about_myself_here_is_what/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "f57ed142-2347-4a44-ba62-fe585275d317",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Abhijit DIPKE HAS BEEN PICKED UP BY THE POLICE! WE REQUEST ALL MPs TO IMMEDIATELY STAND IN SUPPORT OF THE STUDENTS ON THE STREETS! THE POLICE IS BRUTALLY CRACKING DOWN AND BEATING UP PEACEFUL PROTESTERS.",
-    "rating": null,
-    "timestamp": "2026-06-15T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v1gpuz/abhijit_dipke_has_been_picked_up_by_the_police_we/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "4a70d40f-d4a5-4bf5-94f9-d5afcaec2d0d",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "India steps up response to ongoing killing of Indian sailors by US and Iran",
-    "rating": null,
-    "timestamp": "2025-10-28T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2cc06/india_steps_up_response_to_ongoing_killing_of/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "80976546-30eb-4062-ba89-1c59f8b95ce9",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "The \"Agent Provocateur\" Playbook: Why peaceful protests in India always seem to end in violence (and who really benefits)",
-    "rating": null,
-    "timestamp": "2026-05-29T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2702q/the_agent_provocateur_playbook_why_peaceful/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster refund processing"
+      ]
     }
   },
   {
@@ -6625,292 +4983,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "659056b8-6541-4529-a5b8-0ee0b647e0df",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Abhijeet Dipke has been picked up by Delhi Police from Jantar Mantar: CJP",
-    "rating": null,
-    "timestamp": "2025-10-14T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v1gk1o/abhijeet_dipke_has_been_picked_up_by_delhi_police/",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "b38a3355-dcf8-4ea3-88b3-837c0f931a32",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Gujarat HC Rejects Abortion Plea Of 17-Year-Old Rape Survivor Impregnated By Real Brother",
-    "rating": null,
-    "timestamp": "2026-04-06T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v28ir4/gujarat_hc_rejects_abortion_plea_of_17yearold/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "4e247e18-d4a9-4484-b98b-704e69481de3",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "20th July the Black Day. We must archive the brutality videos NOW",
-    "rating": null,
-    "timestamp": "2026-01-17T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v1v3ws/20th_july_the_black_day_we_must_archive_the/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "38df6f88-890b-4720-bee9-00901b2a62d0",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Govt summons Russian envoy after 4 Indians die in merchant ship attack in Ukraine",
-    "rating": null,
-    "timestamp": "2026-05-29T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v292wd/govt_summons_russian_envoy_after_4_indians_die_in/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "f0d24b93-612f-4a0f-8644-1265aee0b9fb",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "saurav das: It’s 11:52 AM. Ashutosh Ranka and I, on behalf of the Cockroach Janta Party, are on our way to meet J.P. Nadda. The government had reached out for talks in the morning. Our demands are clear. The youth has gathered in huge numbers.",
-    "rating": null,
-    "timestamp": "2025-09-29T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v1ds65/saurav_das_its_1152_am_ashutosh_ranka_and_i_on/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "dedf568f-8a6e-4680-b107-b9483acb7d4c",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "CJP claims truck carrying stones parked near Jantar Mantar ahead of 'Chalo Sansad'; Section 163 imposed in New Delhi - The Times of India",
-    "rating": null,
-    "timestamp": "2026-02-16T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v1adrg/cjp_claims_truck_carrying_stones_parked_near/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "411763df-bdb5-426c-a018-2a3846dcc715",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "From luxury villas to gold, Telangana ACB sharpens focus on public servants’ disproportionate assets",
-    "rating": null,
-    "timestamp": "2026-06-15T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2cich/from_luxury_villas_to_gold_telangana_acb_sharpens/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "9bfc0c6e-35d4-4506-9222-279fe1fd5619",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "How stupid are these influencers to make vlogs at protest sites",
-    "rating": null,
-    "timestamp": "2026-03-19T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2epvd/how_stupid_are_these_influencers_to_make_vlogs_at/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "51680ec3-c8ac-452d-88cf-f63cffc170d5",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "After WB girl’s rape, murder, Muslim neighbourhoods allege selective policing after protests, lynching",
-    "rating": null,
-    "timestamp": "2025-10-07T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2ei3q/after_wb_girls_rape_murder_muslim_neighbourhoods/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "5adfd2ff-dad2-442c-893d-f89b77b1718b",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "\"Our future is at stake\": Students launch sit-in against Mohammad Ali Jauhar University demolition",
-    "rating": null,
-    "timestamp": "2026-03-03T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2egql/our_future_is_at_stake_students_launch_sitin/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "85f6945f-1c1c-459f-b5f4-b027f01cc2a6",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "How can people who can’t be at the protest sites in person help?",
-    "rating": null,
-    "timestamp": "2025-12-25T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v22820/how_can_people_who_cant_be_at_the_protest_sites/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "95906a0f-67a8-41d2-86eb-1b3e974b953c",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "We're asking accountability from Education Minsiter, but there's a bigger problem.",
-    "rating": null,
-    "timestamp": "2025-07-28T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2b6g8/were_asking_accountability_from_education/",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "4db17a1f-5363-45df-b8b6-856146108bab",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Don't Let This Movement Die: A Call for Media Revolution",
-    "rating": null,
-    "timestamp": "2025-08-11T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2f0d7/dont_let_this_movement_die_a_call_for_media/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "26fa886f-9a08-46a8-9858-3862931e1481",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "It's full on information warfare going on, a reflection on the ongoing student protests.",
-    "rating": null,
-    "timestamp": "2025-07-27T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2cy6q/its_full_on_information_warfare_going_on_a/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "424d4728-f5ed-4f38-9b4a-2359012eb71b",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Thousands of 'cockroach' protesters to march towards India's parliament - live update by bbc",
-    "rating": null,
-    "timestamp": "2025-10-16T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v1d40d/thousands_of_cockroach_protesters_to_march/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Busy Professionals"
+        "Weekend Buyers"
       ],
       "unmet_needs": []
     }
@@ -6929,47 +5002,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Students"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "2bd0a651-6039-4fc0-998b-06d5daed717b",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Police outnumbered, taken aback by number of protesters who reached Parliament’s doorstep",
-    "rating": null,
-    "timestamp": "2026-01-07T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v1ucza/police_outnumbered_taken_aback_by_number_of/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "7671ac4e-25cc-4ed9-89c9-88c014c4d66e",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "“Army forces without name plates are present in the ongoing protest at Jantar Mantar”",
-    "rating": null,
-    "timestamp": "2026-06-03T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v1ekqg/army_forces_without_name_plates_are_present_in/",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better loyalty program rewards"
+      ]
     }
   },
   {
@@ -6986,102 +5023,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "57488f29-9288-49de-9d35-fbd8432bbd0f",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "I just hope we will not be the silent watchers for the future",
-    "rating": null,
-    "timestamp": "2026-01-22T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v1st6j/i_just_hope_we_will_not_be_the_silent_watchers/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "18b97c95-5994-46ec-b862-4589e35bd253",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "protestchat: encrypted messaging with no internet, no cell tower, and no server. phones relay for each other over bluetooth mesh, so it keeps working during shutdowns and inside cellular jammers. built after delhi police shutdown internet connection and used jammers to censor people/block comms.",
-    "rating": null,
-    "timestamp": "2026-03-19T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v1p2c7/protestchat_encrypted_messaging_with_no_internet/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "a9ad12a9-ff3e-4753-9541-42ec969e09f2",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Consumer forum asks RWA to pay resident Rs 1L for dog bite",
-    "rating": null,
-    "timestamp": "2025-12-29T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v272lf/consumer_forum_asks_rwa_to_pay_resident_rs_1l_for/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "79752fb5-f88b-4f89-bcb7-220dccdb5d77",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "NEET Result Scam: 609 down to 167! NTA should be removed!",
-    "rating": null,
-    "timestamp": "2026-04-30T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v1pabi/neet_result_scam_609_down_to_167_nta_should_be/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "1786da33-10a4-4316-a9f6-d2386260c84f",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "If we were designing democracy from scratch today, what would it look like?",
-    "rating": null,
-    "timestamp": "2025-12-21T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2eayn/if_we_were_designing_democracy_from_scratch_today/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Students"
+        "Weekend Buyers"
       ],
       "unmet_needs": []
     }
@@ -7100,123 +5042,11 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Parents"
+        "Bulk Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "bd91e331-d719-424f-ba6e-566009ed7d5e",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "The Rise of India's Private Space Firms | Momentum [old]",
-    "rating": null,
-    "timestamp": "2025-12-28T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2bcgp/the_rise_of_indias_private_space_firms_momentum/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "48b24d6f-b015-44c4-a7c3-bf9cf480b571",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Government Reportedly Reaches Out to CJP Ahead of Parliament March",
-    "rating": null,
-    "timestamp": "2025-11-14T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v1cm5j/government_reportedly_reaches_out_to_cjp_ahead_of/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "04b88f1a-8c1f-41ce-bb03-68fbcc7e5ab1",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Why is there a 3km red line on HAL old Airport road today?",
-    "rating": null,
-    "timestamp": "2025-10-22T00:00:00Z",
-    "url": "https://www.reddit.com/r/bangalore/comments/1v28hdl/why_is_there_a_3km_red_line_on_hal_old_airport/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "7e483e16-084b-46f5-abba-503b24361465",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "People who have rented places near the ORR because of office, would you be willing to shift to other, more affordable & better areas once the blue line metro is functional?",
-    "rating": null,
-    "timestamp": "2026-02-20T00:00:00Z",
-    "url": "https://www.reddit.com/r/bangalore/comments/1v1hr8q/people_who_have_rented_places_near_the_orr/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "546b8e9e-9644-4151-b6da-9a6bf177b27b",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Video: Tourist Falls 40 Feet After Zipline Safety Lock Allegedly Fails At Karnataka Resort",
-    "rating": null,
-    "timestamp": "2026-02-08T00:00:00Z",
-    "url": "https://www.reddit.com/r/bangalore/comments/1v1h9gb/video_tourist_falls_40_feet_after_zipline_safety/",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "6912bcf8-27c8-4100-b160-2f7fd8fbf8e6",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "BBMP cleaners have been dumping garbage in front of our house for 6+ months. What can we do ?",
-    "rating": null,
-    "timestamp": "2025-07-21T00:00:00Z",
-    "url": "https://www.reddit.com/r/bangalore/comments/1v1ijcp/bbmp_cleaners_have_been_dumping_garbage_in_front/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Better quality checks for fresh produce"
+      ]
     }
   },
   {
@@ -7233,180 +5063,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Impulse Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "3edc4d6b-cb08-4461-a245-747655d975d6",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "GRUHA JYOTHI CANCELLATION FOR TAX PAYERS?! Why am I paying for everyone else's freebies but locked out myself?",
-    "rating": null,
-    "timestamp": "2025-08-31T00:00:00Z",
-    "url": "https://www.reddit.com/r/bangalore/comments/1v1du6g/gruha_jyothi_cancellation_for_tax_payers_why_am_i/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "5ba324f2-7ffe-4096-96f9-112a89558eb3",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Ringfencing Bengaluru: STRR gains momentum while PRR struggles to get takers",
-    "rating": null,
-    "timestamp": "2026-03-09T00:00:00Z",
-    "url": "https://www.reddit.com/r/bangalore/comments/1v2f1zl/ringfencing_bengaluru_strr_gains_momentum_while/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "eb63e5a7-d5b3-4d45-9739-497b1861734a",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Auto driver dies after BMTC e-bus rams his vehicle near K R Circle in Bengaluru",
-    "rating": null,
-    "timestamp": "2026-05-21T00:00:00Z",
-    "url": "https://www.reddit.com/r/bangalore/comments/1v1fkkk/auto_driver_dies_after_bmtc_ebus_rams_his_vehicle/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "a5e6772b-4a97-4755-b416-6309870e6d4f",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Does anyone want to adopt a kitten? He's an enthu cutlet who would light up your home!",
-    "rating": null,
-    "timestamp": "2026-04-21T00:00:00Z",
-    "url": "https://www.reddit.com/r/bangalore/comments/1v1w1x8/does_anyone_want_to_adopt_a_kitten_hes_an_enthu/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "318e7d45-f675-45e0-9385-44fd8d21fb32",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "No thoroughfare signs in the middle of the road ( Koramangala ) !!!",
-    "rating": null,
-    "timestamp": "2026-05-04T00:00:00Z",
-    "url": "https://www.reddit.com/r/bangalore/comments/1v1smg9/no_thoroughfare_signs_in_the_middle_of_the_road/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "52eebbc9-ed19-446b-95fb-13bb81a6b6e2",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "I dont understand why they park on footpath already making difficult to walk & footpath tiles are already not in good condition this may result in breaking tiles, Zero civic sense",
-    "rating": null,
-    "timestamp": "2025-10-15T00:00:00Z",
-    "url": "https://www.reddit.com/r/bangalore/comments/1v1bry0/i_dont_understand_why_they_park_on_footpath/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "bfaa3f5b-e609-4258-aabf-1dca9a1deef7",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Mumbai police handing out investigative notices to protestors. Notice copy in comments. Source - andheriwestshitposting",
-    "rating": null,
-    "timestamp": "2026-05-05T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v2akgd/mumbai_police_handing_out_investigative_notices/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "855a7bac-18ef-4c7e-85e3-ff2c558104a4",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "When bro skips the parents and the bhagwaan, and goes straight to bua",
-    "rating": null,
-    "timestamp": "2026-02-20T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v27hyi/when_bro_skips_the_parents_and_the_bhagwaan_and/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "2eeed5ff-05f2-4975-8b47-13559c94fc1d",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "So are they gonna remove how the British banned public gatherings and meetings from the history books too or...?",
-    "rating": null,
-    "timestamp": "2025-09-16T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v297gd/so_are_they_gonna_remove_how_the_british_banned/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Faster refund processing"
+      ]
     }
   },
   {
@@ -7423,28 +5084,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
+        "Weekend Buyers"
       ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "67c32cd9-74c1-438b-a23f-762fcde433d5",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "The Rediscovery of Gharapuri: \nHow Elephanta Was the \"Mumbai\" of the Ancient World (2nd Century)",
-    "rating": null,
-    "timestamp": "2025-10-31T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v1orsl/the_rediscovery_of_gharapuri_how_elephanta_was/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
+      "unmet_needs": [
+        "Less cluttered home screen"
+      ]
     }
   },
   {
@@ -7461,311 +5105,7 @@
       ],
       "sentiment": "Positive",
       "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "587e76b3-2537-42bb-9441-7c43fb9fa7fc",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Does anyone need a 2bhk for 2 / 3 months in Gulmohar Road, Juhu?",
-    "rating": null,
-    "timestamp": "2026-03-23T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v292j4/does_anyone_need_a_2bhk_for_2_3_months_in/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "f36c5723-8012-4a44-851b-7cb0692eb2a3",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Protest on 20th july 4pm , Shivaji park in support of Sonam Wangchuk",
-    "rating": null,
-    "timestamp": "2026-07-15T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v1etec/protest_on_20th_july_4pm_shivaji_park_in_support/",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "e210fd42-00d8-4b08-b26a-79de273b6aa2",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Homeless woman on the street for many days - what do I do?",
-    "rating": null,
-    "timestamp": "2025-11-29T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v1rgdq/homeless_woman_on_the_street_for_many_days_what/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "9a6764a2-a141-4a9b-b46f-859de448666d",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Shameful behavior in Blue line metro on Sunday 19th July at 11:30 am towards Ghatkopar from Andheri station.",
-    "rating": null,
-    "timestamp": "2025-08-21T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v1fa1z/shameful_behavior_in_blue_line_metro_on_sunday/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "ffec1529-ceb1-4140-8177-3770230cb9f7",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Is there a protest in Azad Maidan on 21st July?",
-    "rating": null,
-    "timestamp": "2025-11-12T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v1j115/is_there_a_protest_in_azad_maidan_on_21st_july/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "f4c5fde6-4f38-4607-97cd-d5daf86534f7",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Any resort near Mumbai / Lonavala / Igatpuri where they have kids play area. I am traveling with 2 kids (5 and 3 yo)",
-    "rating": null,
-    "timestamp": "2026-02-13T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v2788x/any_resort_near_mumbai_lonavala_igatpuri_where/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "21aba29a-64ad-4199-a5e5-a95df9261c50",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Why is independent houses rent so cheap and is it okay to rent them",
-    "rating": null,
-    "timestamp": "2026-07-11T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v1xdad/why_is_independent_houses_rent_so_cheap_and_is_it/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "b6688fdc-4648-4845-8f03-ac76dd4fcb53",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Looking for a 1-night stay in a high-rise (25th+ floor) with my wife – Any leads/hosts? 🌇",
-    "rating": null,
-    "timestamp": "2026-04-03T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v1e5hl/looking_for_a_1night_stay_in_a_highrise_25th/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "2d536323-ece5-401e-90b9-9c4ad3d1d93d",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Smart meter rollout sparks consumer concerns across Mumbai and Maharashtra",
-    "rating": null,
-    "timestamp": "2025-11-02T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v1nli4/smart_meter_rollout_sparks_consumer_concerns/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "f5cb6a24-64cf-4dae-b94c-93563f86026d",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Does any person have any idea about LLM in abroad?",
-    "rating": null,
-    "timestamp": "2026-03-31T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v288vy/does_any_person_have_any_idea_about_llm_in_abroad/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "270cff24-651b-44cf-a614-f886eb2477b4",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Police Verification for Passport verification, I'm fed up with the list of documents required for it!",
-    "rating": null,
-    "timestamp": "2025-09-06T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v1ap32/police_verification_for_passport_verification_im/",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "d73960ac-81e2-41ef-a43f-24c8c492f1cb",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Any Good PGs in Ghatkopar ? Near Patanwala Industrial Estate ?",
-    "rating": null,
-    "timestamp": "2026-05-24T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v272ib/any_good_pgs_in_ghatkopar_near_patanwala/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "060e6b0f-1c21-41da-8b1b-f6bf50b2a346",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "I am a 30M (90s kid) who has never dated or flirted due to extreme shyness. How do I navigate today's modern dating scene and find a genuine connection?",
-    "rating": null,
-    "timestamp": "2025-11-09T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v1gjw5/i_am_a_30m_90s_kid_who_has_never_dated_or_flirted/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "8031e104-57dc-4926-a2fe-03a1f3772161",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "I feel ashamed of myself for being just another keyboard warrior. Tomorrow, I want to actually show up.",
-    "rating": null,
-    "timestamp": "2026-04-08T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v0yh8q/i_feel_ashamed_of_myself_for_being_just_another/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "f7f496e4-3115-4388-969d-a3100126e85d",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Why is this building stalled and half built and whats its story?",
-    "rating": null,
-    "timestamp": "2026-05-06T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v1e767/why_is_this_building_stalled_and_half_built_and/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "39b8713f-4830-47ab-b40a-0e856c5e4d9f",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Does anyone knows what is this bright light? Shot taken near goregaon east metro station",
-    "rating": null,
-    "timestamp": "2025-09-15T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v0tkq2/does_anyone_knows_what_is_this_bright_light_shot/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Parents"
+        "Frequent Shoppers"
       ],
       "unmet_needs": []
     }
@@ -7784,674 +5124,11 @@
       ],
       "sentiment": "Negative",
       "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "2b512473-1c70-4b79-be86-bc1bb74305f5",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Jio Fiber down almost full month, what alternative broadband service in Worli?",
-    "rating": null,
-    "timestamp": "2026-05-20T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v1hlq2/jio_fiber_down_almost_full_month_what_alternative/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "9aa1e1de-8752-4498-94c8-a4db0f521836",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Beware of 717 Villas & Akshay Nanaware – Terrible Experience With White Manor Villa, Pawna Dam",
-    "rating": null,
-    "timestamp": "2026-05-06T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v0wujp/beware_of_717_villas_akshay_nanaware_terrible/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "cf1a9538-6688-4c08-8373-f7c8381077ff",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Can I unstaple pin this paper over my final sem marksheet or do I hv to keep it like this forever?",
-    "rating": null,
-    "timestamp": "2025-11-22T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v1bd2w/can_i_unstaple_pin_this_paper_over_my_final_sem/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "5b50521e-2ec1-45ab-a44f-daebf75a8611",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Will Spider-Man Brand New Day be available in 2D English in Mumbai",
-    "rating": null,
-    "timestamp": "2026-03-23T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v1qhx6/will_spiderman_brand_new_day_be_available_in_2d/",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "c571c240-1bc9-4a45-b544-b65c47ee3ba5",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Santacruz Skywalk still doesn't have a roof. Useless people in charge fail to act again.",
-    "rating": null,
-    "timestamp": "2026-02-21T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v0pdr8/santacruz_skywalk_still_doesnt_have_a_roof/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "32c19674-a112-4525-805c-764d63e8da5d",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "We got capsule hotel with sleeping pods and hot showers in Mumbai Metro before GTA 6! At Yellow Line Andheri West Metro Station.",
-    "rating": null,
-    "timestamp": "2025-08-24T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v0kma4/we_got_capsule_hotel_with_sleeping_pods_and_hot/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "30f5f826-4fc9-484b-bd22-db5c43fe9984",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "The city finally took a deep breath! IC Colony, Borivali",
-    "rating": null,
-    "timestamp": "2026-02-05T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v0eilk/the_city_finally_took_a_deep_breath_ic_colony/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "951eff9d-06b3-4541-8e77-4dc9377cd58b",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "I've been in Mumbai for 3 hours and I don't think my brain can process this city",
-    "rating": null,
-    "timestamp": "2026-07-07T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v0e196/ive_been_in_mumbai_for_3_hours_and_i_dont_think/",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "f9d4e479-25d3-426d-8e1c-ba79b315dd39",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Mumbai Police detaining students of group Aamchi Padhai Aamchi Ladhai for peacefully protesting against Sonam wanghchuk’s forceful placement in hospital.",
-    "rating": null,
-    "timestamp": "2026-07-14T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v04kg0/mumbai_police_detaining_students_of_group_aamchi/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "bc33e8b2-e212-4dde-b611-4f2c3533d82b",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Why is Mumbai Police treating peaceful protestors with brutality ?",
-    "rating": null,
-    "timestamp": "2025-12-31T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v0653i/why_is_mumbai_police_treating_peaceful_protestors/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "30c0491b-3a4b-49bc-9068-6e4bd8eae467",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Mumbai protests on 19th & 20th. Let's show up cockroaches!",
-    "rating": null,
-    "timestamp": "2025-07-24T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v096yu/mumbai_protests_on_19th_20th_lets_show_up/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "cb3d875e-687d-4229-a039-2e5aa6413126",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Friendly PSA for anyone heading to Lohagad or Pawna Lake! 🚗⛰️",
-    "rating": null,
-    "timestamp": "2025-07-15T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v0td2m/friendly_psa_for_anyone_heading_to_lohagad_or/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "99cfb036-9380-412a-adda-efb665551e86",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Can I survive in Mumbai for college as a NRI?",
-    "rating": null,
-    "timestamp": "2026-05-13T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v1wsgr/can_i_survive_in_mumbai_for_college_as_a_nri/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "3a1fdb6e-8319-49c5-870d-6843ea3425be",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Looking for an Affordable 2BHK in Chembur for 2 Female Students – Any Leads?",
-    "rating": null,
-    "timestamp": "2026-02-25T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v1fjdf/looking_for_an_affordable_2bhk_in_chembur_for_2/",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "cca49eb9-6a92-40cf-b325-3bb6f70dd290",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Please help where can I buy budget friendly lehengas for an upcoming wedding?",
-    "rating": null,
-    "timestamp": "2025-11-26T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v1ed0r/please_help_where_can_i_buy_budget_friendly/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "32fa5dfa-9990-4a04-a0eb-eaf164f7fd54",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Mumbai: Brake Binding Causes Fire on Dombivli-Bound AC Local Train at Ghatkopar Station",
-    "rating": null,
-    "timestamp": "2026-04-24T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v0bovo/mumbai_brake_binding_causes_fire_on_dombivlibound/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "600f8da3-3420-41c2-bd4c-7876f3e7b93b",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Delhi police called IIT Delhi, SRCC, DU girls who joined protest as \"dhandhewali\"",
-    "rating": null,
-    "timestamp": "2026-01-05T00:00:00Z",
-    "url": "https://www.reddit.com/r/delhi/comments/1v26ohn/delhi_police_called_iit_delhi_srcc_du_girls_who/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "97963bd2-4a9b-4e3e-bf1e-cd495fc08c15",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Take up your moral responsibility Delhi, the protestors aren't there for their personal motives. It is about you, it is about us.",
-    "rating": null,
-    "timestamp": "2026-03-11T00:00:00Z",
-    "url": "https://www.reddit.com/r/delhi/comments/1v2705h/take_up_your_moral_responsibility_delhi_the/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "aefc4be5-2e0b-4fe7-901d-51d11079cf7a",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "After Today at Jantar Mantar, I Will Never See Women the Same Way Again",
-    "rating": null,
-    "timestamp": "2026-07-09T00:00:00Z",
-    "url": "https://www.reddit.com/r/delhi/comments/1v29f2h/after_today_at_jantar_mantar_i_will_never_see/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "7cf192e1-d266-48a0-b81a-3045190f5faa",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "20 July changed how I look at Delhi Police forever. They gave me a hairline fracture",
-    "rating": null,
-    "timestamp": "2025-09-12T00:00:00Z",
-    "url": "https://www.reddit.com/r/delhi/comments/1v2d5sy/20_july_changed_how_i_look_at_delhi_police/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "f6d4553d-e70d-4e34-a1a0-d0c7620b1695",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "I think most people miss the point of this protest.",
-    "rating": null,
-    "timestamp": "2025-10-23T00:00:00Z",
-    "url": "https://www.reddit.com/r/delhi/comments/1v29h11/i_think_most_people_miss_the_point_of_this_protest/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "431f2336-d5df-42fa-bd67-858ffc662964",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "This is what you get if you want education in this country",
-    "rating": null,
-    "timestamp": "2026-05-20T00:00:00Z",
-    "url": "https://www.reddit.com/r/delhi/comments/1v1p2vw/this_is_what_you_get_if_you_want_education_in/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "b36dcb44-5791-4b39-8959-71da7803aa64",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Arvind Kejriwal has launched a Legal & Medical Support for protesters in Need | Helpline: 85-888-33548",
-    "rating": null,
-    "timestamp": "2026-02-03T00:00:00Z",
-    "url": "https://www.reddit.com/r/delhi/comments/1v2b6sn/arvind_kejriwal_has_launched_a_legal_medical/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "8e3377a3-ff60-47d1-9dd6-c5368f4cbcb7",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "We need you all delhities . Please come forward to save our democracy . PLEASE HELP US.",
-    "rating": null,
-    "timestamp": "2025-07-26T00:00:00Z",
-    "url": "https://www.reddit.com/r/delhi/comments/1v1so1o/we_need_you_all_delhities_please_come_forward_to/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "91f7cd6b-8f2e-4400-8636-3169a70d450b",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Got hit by sticks 6 times today and am bruised all over. They were intentionally trying to hurt protestors",
-    "rating": null,
-    "timestamp": "2026-06-11T00:00:00Z",
-    "url": "https://www.reddit.com/r/delhi/comments/1v1qcbm/got_hit_by_sticks_6_times_today_and_am_bruised/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "3b3a105a-c267-4dd2-81ea-0940c96db5fe",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "To the Children of the Police Officers: How did you sleep last night?",
-    "rating": null,
-    "timestamp": "2025-10-19T00:00:00Z",
-    "url": "https://www.reddit.com/r/delhi/comments/1v2b1ll/to_the_children_of_the_police_officers_how_did/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "fd622031-cdc1-4100-8b5d-cac1292f1422",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "We students were Lathi charged Yesterday. Time to get bigger, smarter, united",
-    "rating": null,
-    "timestamp": "2025-12-23T00:00:00Z",
-    "url": "https://www.reddit.com/r/delhi/comments/1v26dy1/we_students_were_lathi_charged_yesterday_time_to/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "45701156-6d0e-4a33-9214-41832b76e171",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "The Police or any cadre of the Indiam/state police services is prohibited to be in plain cloth uniform while carrying out executive action and the personal doing so lose their immunity and can be charged for their actions as a civilian",
-    "rating": null,
-    "timestamp": "2026-07-04T00:00:00Z",
-    "url": "https://www.reddit.com/r/delhi/comments/1v2c9xf/the_police_or_any_cadre_of_the_indiamstate_police/",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "605e8bae-17a1-4e12-bbd4-8bc46a66198c",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Tear Gas, Laathi Charge, Stone Pelting and now I found this, Way beyond evil.",
-    "rating": null,
-    "timestamp": "2025-08-10T00:00:00Z",
-    "url": "https://www.reddit.com/r/gurgaon/comments/1v29uu3/tear_gas_laathi_charge_stone_pelting_and_now_i/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Parents"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "6246130d-303f-4d9b-afb6-d06c27a5e834",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Identity of people in Civil Dress who brutally beagen innocent students",
-    "rating": null,
-    "timestamp": "2026-01-12T00:00:00Z",
-    "url": "https://www.reddit.com/r/gurgaon/comments/1v28l01/identity_of_people_in_civil_dress_who_brutally/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "4bc559a2-d66b-45d7-a1ee-734c8b8fe112",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "They Just wanted to Attack each and everyone they saw",
-    "rating": null,
-    "timestamp": "2025-12-18T00:00:00Z",
-    "url": "https://www.reddit.com/r/gurgaon/comments/1v25xdz/they_just_wanted_to_attack_each_and_everyone_they/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "79aa6fc2-be63-43eb-a02d-78a5bd5d8b3b",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "BJ Pee Goons were Given Police Sticks and Police Protection",
-    "rating": null,
-    "timestamp": "2025-11-14T00:00:00Z",
-    "url": "https://www.reddit.com/r/gurgaon/comments/1v1qun1/bj_pee_goons_were_given_police_sticks_and_police/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "ae1d199a-2b76-4f8a-ae50-6134f85a41f4",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Hi everyone! Not sure if you remember me, but I used to be the girl w the pretty room after I posted my room one fine rainy day.",
-    "rating": null,
-    "timestamp": "2025-11-19T00:00:00Z",
-    "url": "https://www.reddit.com/r/gurgaon/comments/1v1ng7r/hi_everyone_not_sure_if_you_remember_me_but_i/",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Students"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "d3cc3f51-4b52-4965-99a0-4f2c0cfd8b7e",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "I got this video on the internet...dekhne ke bad hansi ruk hi nhi Rahi he🤣🤣🤣🤣",
-    "rating": null,
-    "timestamp": "2026-03-19T00:00:00Z",
-    "url": "https://www.reddit.com/r/gurgaon/comments/1v1tftn/i_got_this_video_on_the_internetdekhne_ke_bad/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "90d830b9-7e0e-4cc6-818d-09f19c32bb63",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Aaj Kaun kaun office me hai ? Ya raste me hai ?? It sounds weird.. but mujhe barish me WFH boring lagta.. i wanna around people and see rain from big windows !! 😛",
-    "rating": null,
-    "timestamp": "2025-11-20T00:00:00Z",
-    "url": "https://www.reddit.com/r/gurgaon/comments/1v2ahqo/aaj_kaun_kaun_office_me_hai_ya_raste_me_hai_it/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Busy Professionals"
-      ],
-      "unmet_needs": []
+        "Weekend Buyers"
+      ],
+      "unmet_needs": [
+        "Better quality checks for fresh produce"
+      ]
     }
   }
 ]
