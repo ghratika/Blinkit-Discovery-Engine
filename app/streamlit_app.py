@@ -514,9 +514,19 @@ neg_pct = round(100 * enr_sents.count("Negative") / max(len(enr_sents), 1))
 all_themes_flat = [t for r in filtered for t in (r.get("enrichment") or {}).get("themes", [])]
 unique_themes = len(set(all_themes_flat))
 
+# Calculate Discovery of new products/categories %
+discovery_kw = ["discover", "explore", "new product", "new category", "finding new", "exploration"]
+discovery_cnt = 0
+for r in filtered:
+    txt = r.get("text", "").lower()
+    thms = [t.lower() for t in (r.get("enrichment") or {}).get("themes", [])]
+    if any(k in txt for k in discovery_kw) or any("discover" in t or "explore" in t for t in thms):
+        discovery_cnt += 1
+discovery_pct = round(100 * discovery_cnt / max(total_f, 1))
+
 c1, c2, c3, c4 = st.columns(4)
 with c1:
-    st.markdown(f'<div class="kpi"><div class="kpi-val">{total_f}</div><div class="kpi-lbl">Reviews</div></div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="kpi"><div class="kpi-val" style="font-size:1.6rem">{total_f} <span style="font-size:0.9rem;color:#FFE000;font-weight:600">({discovery_pct}% Discovery)</span></div><div class="kpi-lbl">Reviews</div></div>', unsafe_allow_html=True)
 with c2:
     st.markdown(f'<div class="kpi"><div class="kpi-val">{pos_pct}%</div><div class="kpi-lbl">Positive</div></div>', unsafe_allow_html=True)
 with c3:

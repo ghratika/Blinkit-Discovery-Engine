@@ -59,7 +59,7 @@ def main():
     try:
         run_input = {
             "searches": KEYWORDS,
-            "subreddits": ["india", "bangalore", "mumbai", "delhi", "gurgaon"],
+            "subreddits": ["reddit", "all"],
             "sort": "new",
             "time": "year",
             "maxItems": MAX_ITEMS,
