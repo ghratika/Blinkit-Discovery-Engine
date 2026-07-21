@@ -23,7 +23,7 @@ INPUT_PATH = Path("data/processed/normalized.json")
 OUTPUT_PATH = Path("data/processed/enriched.json")
 BATCH_SIZE = 10
 DELAY_BETWEEN_BATCHES = 2  # seconds
-MAX_TARGET_REVIEWS = 550
+MAX_TARGET_REVIEWS = 2000
 MAX_RETRIES = 5
 MODEL_NAME = "llama-3.1-8b-instant"
 
