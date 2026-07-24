@@ -7,16 +7,17 @@ to extract themes, sentiment, segments, and unmet needs from reviews.
 
 ENRICHMENT_SYSTEM_PROMPT = "You are an expert UX researcher analyzing user reviews of quick-commerce apps. Expect and translate/handle Hinglish (Hindi written in English script) in the reviews organically."
 
-ENRICHMENT_USER_PROMPT_TEMPLATE = """Analyze the following review and return a JSON object with these exact keys:
-- "themes": list of 1-3 short theme labels (e.g., "Category Trust", "Delivery Delay", "Quality Issue")
-- "sentiment": one of "Positive", "Neutral", "Negative". If a review uses sarcasm (e.g., "Great job delivering expired milk!"), tag it as Negative. Assign sentiment specifically *relative to the target platform* (Blinkit) being analyzed.
+ENRICHMENT_USER_PROMPT_TEMPLATE = """Analyze the following text and return a JSON object with these exact keys:
+- "is_valid_review": boolean (true/false). Set to false if this text is a general quote, random spam, news headline, survey response, political discussion, or otherwise NOT a genuine user review of a quick-commerce/delivery experience on Blinkit.
+- "themes": list of 1-3 short theme labels (e.g., "Category Trust", "Delivery Delay", "Quality Issue"). (Empty list if not a valid review).
+- "sentiment": one of "Positive", "Neutral", "Negative". If a review uses sarcasm (e.g., "Great job delivering expired milk!"), tag it as Negative. Assign sentiment specifically *relative to the target platform* (Blinkit) being analyzed. (If not a valid review, use "Neutral").
 - "segment": list of BEHAVIORAL user segments inferred from the review text. Segments MUST predict a specific purchase-category need or an exploration pattern. 
   BASELINE CATEGORIES TO USE IF APPLICABLE: "Frequent Shoppers", "Busy Professionals", "Foodies", "Grocery Shoppers (The Natural Explorers)", "Budget Shoppers", "Household Managers".
   DO NOT use categories like "Deal-Driven Buyer", "Weekend Stock-up Buyer", "New Parent", "Pet Owner", or "Bulk Grocery Buyer". DO NOT extract demographics, platform usage, or general identities.
   Only derive segments from these two structural types:
   1. Life-stage/Need-driven: The label implies a specific product category need.
   2. Habit/Purchase-pattern-driven: The label describes a recurring buying behavior.
-  Return an empty list if no valid behavioral segment can be inferred.
+  Return an empty list if no valid behavioral segment can be inferred or if not a valid review.
 - "unmet_needs": list of 0-2 explicit gaps or requests mentioned (empty list if none)
 
 Review: "{review_text}"

@@ -318,12 +318,18 @@ def load_enriched() -> list[dict]:
     if path.exists():
         with open(path, encoding="utf-8") as f:
             data = json.load(f)
-            # Normalize different Play Store variants into one
+            # Normalize different Play Store variants into one and filter invalid reviews
+            valid_data = []
             for r in data:
+                enrichment = r.get("enrichment")
+                if enrichment and enrichment.get("is_valid_review") is False:
+                    continue
+                    
                 src = r.get("source", "")
                 if src and "play store" in src.lower():
                     r["source"] = "Play Store"
-            return data
+                valid_data.append(r)
+            return valid_data
     return []
 
 
