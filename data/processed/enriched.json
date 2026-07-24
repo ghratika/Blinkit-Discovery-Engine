@@ -208,27 +208,6 @@
     }
   },
   {
-    "id": "3e7c57e0-9630-47af-b2ee-dd0111144c42",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Amul does not make fruit and nut chocolate with coffee flavour in 99%, so I made my own. Did not disappoint.",
-    "rating": 1,
-    "timestamp": "2026-02-26T00:00:00Z",
-    "url": "https://www.reddit.com/r/SnacksIndia/comments/1v1glx5/amul_does_not_make_fruit_and_nut_chocolate_with/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Weekend Buyers"
-      ],
-      "unmet_needs": [
-        "Less cluttered home screen"
-      ]
-    }
-  },
-  {
     "id": "6028643a-8572-4674-9142-28dc317455c3",
     "source": "Play Store",
     "platform": "Android",
@@ -245,27 +224,6 @@
         "Bulk Buyers"
       ],
       "unmet_needs": []
-    }
-  },
-  {
-    "id": "67dbeebd-10e4-448c-aff6-0a43834c31a4",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Who called whom? JP Nadda, CJP leaders differ on how the talks happened",
-    "rating": null,
-    "timestamp": "2025-07-27T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v28fkn/who_called_whom_jp_nadda_cjp_leaders_differ_on/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Frequent Shoppers"
-      ],
-      "unmet_needs": [
-        "Faster refund processing"
-      ]
     }
   },
   {
@@ -726,25 +684,6 @@
     }
   },
   {
-    "id": "21d7bd85-5058-4af8-b334-fba2ea97e42d",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Protests happening in hyderabad?",
-    "rating": 5,
-    "timestamp": "2026-04-04T00:00:00Z",
-    "url": "https://www.reddit.com/r/hyderabad/comments/1v2brws/protests_happening_in_hyderabad/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Weekend Buyers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
     "id": "81826217-d8fe-4a01-a9a0-7a5639b90ff8",
     "source": "Play Store",
     "platform": "Android",
@@ -947,27 +886,6 @@
     }
   },
   {
-    "id": "e05d6a1b-861c-4be1-b606-2d5b7e9bf122",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "These are our country police and govt ordered this!",
-    "rating": 3,
-    "timestamp": "2026-03-07T00:00:00Z",
-    "url": "https://www.reddit.com/r/hyderabad/comments/1v2fe6p/these_are_our_country_police_and_govt_ordered_this/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Bulk Buyers"
-      ],
-      "unmet_needs": [
-        "Real-time stock updates"
-      ]
-    }
-  },
-  {
     "id": "540b7dd5-ede7-47c9-a151-7d83c9a58118",
     "source": "Play Store",
     "platform": "Android",
@@ -1005,27 +923,6 @@
         "Impulse Buyers"
       ],
       "unmet_needs": []
-    }
-  },
-  {
-    "id": "57eea5b0-baa1-45ad-8c9f-3010f87ddfdd",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Why does Hyderabad choke every morning & evening? Also since when is this happening?",
-    "rating": 1,
-    "timestamp": "2026-01-16T00:00:00Z",
-    "url": "https://www.reddit.com/r/hyderabad/comments/1v2818m/why_does_hyderabad_choke_every_morning_evening/",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Impulse Buyers"
-      ],
-      "unmet_needs": [
-        "More accurate ETA tracking"
-      ]
     }
   },
   {
@@ -1167,27 +1064,6 @@
         "Late Night Shoppers"
       ],
       "unmet_needs": []
-    }
-  },
-  {
-    "id": "cffea3cf-e48f-4df6-ba98-34d062907d26",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Is the protest happening today?",
-    "rating": 3,
-    "timestamp": "2025-10-13T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v29323/is_the_protest_happening_today/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": [
-        "More transparent delivery fees"
-      ]
     }
   },
   {
@@ -1414,27 +1290,6 @@
     }
   },
   {
-    "id": "20e0d041-6b4a-4f26-839d-298884c9cfc6",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Something strange happened with me 😭🥀",
-    "rating": 3,
-    "timestamp": "2025-08-09T00:00:00Z",
-    "url": "https://www.reddit.com/r/pune/comments/1v2d1x1/something_strange_happened_with_me/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Bulk Buyers"
-      ],
-      "unmet_needs": [
-        "Better quality checks for fresh produce"
-      ]
-    }
-  },
-  {
     "id": "8ce1a23a-c968-4c4b-8789-6c1d05719085",
     "source": "Play Store",
     "platform": "Blinkit",
@@ -1491,69 +1346,6 @@
         "Weekend Buyers"
       ],
       "unmet_needs": []
-    }
-  },
-  {
-    "id": "d152a7d7-f74c-4176-bf8e-176174df4003",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Coupon Not Applicable",
-    "rating": 2,
-    "timestamp": "2026-04-05T00:00:00Z",
-    "url": "https://www.reddit.com/r/blinkit/comments/1v1nt39/coupon_not_applicable/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Frequent Shoppers"
-      ],
-      "unmet_needs": [
-        "Better quality checks for fresh produce"
-      ]
-    }
-  },
-  {
-    "id": "15b3ef18-9f51-446f-aed7-dd6f919c5903",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "PSA: Internet down in Protest area. Here are the offline chat apps you need to download NOW",
-    "rating": null,
-    "timestamp": "2026-05-13T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v1f4l7/psa_internet_down_in_protest_area_here_are_the/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Bulk Buyers"
-      ],
-      "unmet_needs": [
-        "Better quality checks for fresh produce"
-      ]
-    }
-  },
-  {
-    "id": "06230afc-fc8c-4a43-8c7f-1900f9223331",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "KBG appreciation. K.R pura flyover service road near ITI is completely cleared of encroachment.",
-    "rating": null,
-    "timestamp": "2026-05-19T00:00:00Z",
-    "url": "https://www.reddit.com/r/bangalore/comments/1v1ruj6/kbg_appreciation_kr_pura_flyover_service_road/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Impulse Buyers"
-      ],
-      "unmet_needs": [
-        "Faster refund processing"
-      ]
     }
   },
   {
@@ -1967,27 +1759,6 @@
     }
   },
   {
-    "id": "50131aa8-9284-440a-bdb5-c9f8c2b8cf4f",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "having interview at unifyapps for FDE role. need help with prev experiences",
-    "rating": 2,
-    "timestamp": "2026-05-06T00:00:00Z",
-    "url": "https://www.reddit.com/r/developersIndia/comments/1v2epkl/having_interview_at_unifyapps_for_fde_role_need/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Impulse Buyers"
-      ],
-      "unmet_needs": [
-        "Option to request out-of-stock items"
-      ]
-    }
-  },
-  {
     "id": "fbf961ff-ac2b-47bf-b10f-cb3fab208941",
     "source": "Play Store",
     "platform": "Android",
@@ -2190,25 +1961,6 @@
     }
   },
   {
-    "id": "9fa1ad8b-c7bd-4957-9f68-81a02cd2c5e6",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "A quick reminder for my dear countrymen on the recent happenings at Delhi",
-    "rating": null,
-    "timestamp": "2025-09-27T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v26p44/a_quick_reminder_for_my_dear_countrymen_on_the/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Weekend Buyers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
     "id": "ba9cd2bd-e4f4-4007-8e41-b60483b4f052",
     "source": "Play Store",
     "platform": "Android",
@@ -2368,27 +2120,6 @@
         "Frequent Shoppers"
       ],
       "unmet_needs": []
-    }
-  },
-  {
-    "id": "ee626574-05c9-4ed0-af85-d2db72bc9757",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Disappointed with Noida ecosystem",
-    "rating": 3,
-    "timestamp": "2026-05-18T00:00:00Z",
-    "url": "https://www.reddit.com/r/noida/comments/1v2h1ku/disappointed_with_noida_ecosystem/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Frequent Shoppers"
-      ],
-      "unmet_needs": [
-        "Clearer expiry dates on app"
-      ]
     }
   },
   {
@@ -2861,27 +2592,6 @@
     }
   },
   {
-    "id": "8f599e48-94f3-4995-a2b6-1323acc119bb",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Need legal advice regarding a brothel raid and old WhatsApp/call records (India)",
-    "rating": null,
-    "timestamp": "2025-12-13T00:00:00Z",
-    "url": "https://www.reddit.com/r/india/comments/1v2cuty/need_legal_advice_regarding_a_brothel_raid_and/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Impulse Buyers"
-      ],
-      "unmet_needs": [
-        "Better loyalty program rewards"
-      ]
-    }
-  },
-  {
     "id": "bccb5d95-0e35-4c08-acf9-0b7a0963b699",
     "source": "Play Store",
     "platform": "Android",
@@ -2917,46 +2627,6 @@
         "Bulk Buyers"
       ],
       "unmet_needs": []
-    }
-  },
-  {
-    "id": "34ed0852-7836-47f4-a52f-454212993e91",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Would people actually buy homemade appalu/murukulu instead of store-bought? (thinking of starting this)",
-    "rating": 4,
-    "timestamp": "2026-07-19T00:00:00Z",
-    "url": "https://www.reddit.com/r/hyderabad/comments/1v2ahfm/would_people_actually_buy_homemade_appalumurukulu/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Bulk Buyers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "75f0c7d3-e290-4dff-8258-23c70adafada",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Happy Birthday Problem Creators!",
-    "rating": 1,
-    "timestamp": "2025-11-16T00:00:00Z",
-    "url": "https://www.reddit.com/r/Zomato/comments/1uszrt6/happy_birthday_problem_creators/",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Frequent Shoppers"
-      ],
-      "unmet_needs": [
-        "Faster delivery during peak hours"
-      ]
     }
   },
   {
@@ -3473,27 +3143,6 @@
     }
   },
   {
-    "id": "27d98e5a-b437-468d-8848-72d9a20a6b70",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "South Bombay (Lower Parel/Worli/ Prabhadevi) Broker Rental Cartel",
-    "rating": 2,
-    "timestamp": "2025-08-05T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v1ih9f/south_bombay_lower_parelworli_prabhadevi_broker/",
-    "enrichment": {
-      "themes": [
-        "Product Quality"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": [
-        "Better quality checks for fresh produce"
-      ]
-    }
-  },
-  {
     "id": "1c43b362-a7e0-4101-a829-58b4cac5f4a1",
     "source": "Play Store",
     "platform": "Android",
@@ -3671,27 +3320,6 @@
       ],
       "unmet_needs": [
         "More accurate ETA tracking"
-      ]
-    }
-  },
-  {
-    "id": "314f28d6-c0d4-48ed-ab59-eb5b167b24d0",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "My love for Muddapappu annam is endless🙂👿",
-    "rating": 2,
-    "timestamp": "2025-08-05T00:00:00Z",
-    "url": "https://www.reddit.com/r/hyderabad/comments/1v2d3x7/my_love_for_muddapappu_annam_is_endless/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Frequent Shoppers"
-      ],
-      "unmet_needs": [
-        "Better loyalty program rewards"
       ]
     }
   },
@@ -4343,25 +3971,6 @@
       "unmet_needs": [
         "Better loyalty program rewards"
       ]
-    }
-  },
-  {
-    "id": "5cfbd0f4-95c4-4abd-8130-dd04830d8e97",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Anyone else tired of dating apps but not ready for matrimony either?",
-    "rating": 4,
-    "timestamp": "2026-05-30T00:00:00Z",
-    "url": "https://www.reddit.com/r/hyderabad/comments/1v2drqv/anyone_else_tired_of_dating_apps_but_not_ready/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Weekend Buyers"
-      ],
-      "unmet_needs": []
     }
   },
   {
@@ -5221,27 +4830,6 @@
     }
   },
   {
-    "id": "b0118114-ef5d-4659-91b9-7c96d3798e79",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "I am mapping all To-Let Boards in India",
-    "rating": 2,
-    "timestamp": "2026-03-31T00:00:00Z",
-    "url": "https://www.reddit.com/r/StartUpIndia/comments/1uzokwe/i_am_mapping_all_tolet_boards_in_india/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Impulse Buyers"
-      ],
-      "unmet_needs": [
-        "Easier discovery of new categories"
-      ]
-    }
-  },
-  {
     "id": "d677acda-fdce-4de9-8787-2ac61ad38026",
     "source": "Play Store",
     "platform": "Android",
@@ -5408,25 +4996,6 @@
     }
   },
   {
-    "id": "a6724d73-2ab4-416b-a8e2-4ff5f0b16671",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Have applied to thousands, not sure what's wrong with my approach",
-    "rating": 5,
-    "timestamp": "2025-09-17T00:00:00Z",
-    "url": "https://www.reddit.com/r/StartUpIndia/comments/1v2bcn0/have_applied_to_thousands_not_sure_whats_wrong/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Bulk Buyers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
     "id": "0ed145f8-4b7b-4205-ae01-175f6967a0cb",
     "source": "Play Store",
     "platform": "Android",
@@ -5441,46 +5010,6 @@
       "sentiment": "Positive",
       "segment": [
         "Late Night Shoppers"
-      ],
-      "unmet_needs": []
-    }
-  },
-  {
-    "id": "64ae7727-ecd5-477b-be47-74bf515f6dcb",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Has anyone here ever been detained during a protest? What happened afterwards?",
-    "rating": null,
-    "timestamp": "2025-08-10T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v1lxyv/has_anyone_here_ever_been_detained_during_a/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Weekend Buyers"
-      ],
-      "unmet_needs": [
-        "Less cluttered home screen"
-      ]
-    }
-  },
-  {
-    "id": "1f9e5892-30a8-4cbc-af2e-b4efc790222a",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Are the Apple adapters sold on quick commerce sites genuine?",
-    "rating": 5,
-    "timestamp": "2025-12-28T00:00:00Z",
-    "url": "https://www.reddit.com/r/AppleIndia/comments/1v1e778/are_the_apple_adapters_sold_on_quick_commerce/",
-    "enrichment": {
-      "themes": [
-        "Delivery Speed"
-      ],
-      "sentiment": "Positive",
-      "segment": [
-        "Weekend Buyers"
       ],
       "unmet_needs": []
     }
@@ -5524,48 +5053,6 @@
       ],
       "unmet_needs": [
         "Faster refund processing"
-      ]
-    }
-  },
-  {
-    "id": "3a78d5e0-3327-4387-a6d7-7fed3c6cdf6f",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "My mother works at an Ayyappa temple. Today she and my sister say they were harassed there, and I don't know how to live with this.",
-    "rating": 2,
-    "timestamp": "2025-12-06T00:00:00Z",
-    "url": "https://www.reddit.com/r/hyderabad/comments/1v1qhx1/my_mother_works_at_an_ayyappa_temple_today_she/",
-    "enrichment": {
-      "themes": [
-        "Customer Service"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Frequent Shoppers"
-      ],
-      "unmet_needs": [
-        "Human support agents instead of bots"
-      ]
-    }
-  },
-  {
-    "id": "d3ccd741-aad2-49b6-9ba2-00d71989e4fe",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "Looking for opportunities in Operations / Marketing — would really appreciate any leads or advice",
-    "rating": 1,
-    "timestamp": "2026-02-14T00:00:00Z",
-    "url": "https://www.reddit.com/r/StartUpIndia/comments/1v2cwp9/looking_for_opportunities_in_operations_marketing/",
-    "enrichment": {
-      "themes": [
-        "Pricing & Offers"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": [
-        "More transparent delivery fees"
       ]
     }
   },
@@ -6073,27 +5560,6 @@
     }
   },
   {
-    "id": "3ea165ea-0344-4b3e-831a-c29425b11526",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "2 years unemploymed 2300 application+320 companies+ 30 interviews+ 10final round rejections+1offer everything was worth (1st salary+ bonus)",
-    "rating": 3,
-    "timestamp": "2025-11-07T00:00:00Z",
-    "url": "https://www.reddit.com/r/Btechtards/comments/1v29wo0/2_years_unemploymed_2300_application320_companies/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Impulse Buyers"
-      ],
-      "unmet_needs": [
-        "Real-time stock updates"
-      ]
-    }
-  },
-  {
     "id": "f280fe85-bcda-44aa-b937-102bdf5e4d8c",
     "source": "Play Store",
     "platform": "Blinkit",
@@ -6536,27 +6002,6 @@
     }
   },
   {
-    "id": "bfbe6c2b-bd02-4125-89a0-1d2a136bbf2d",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "any protests happening tomorrow?",
-    "rating": 3,
-    "timestamp": "2026-01-31T00:00:00Z",
-    "url": "https://www.reddit.com/r/mumbai/comments/1v1s1vc/any_protests_happening_tomorrow/",
-    "enrichment": {
-      "themes": [
-        "App Experience"
-      ],
-      "sentiment": "Neutral",
-      "segment": [
-        "Late Night Shoppers"
-      ],
-      "unmet_needs": [
-        "Less cluttered home screen"
-      ]
-    }
-  },
-  {
     "id": "1ad011b1-a2f1-43e9-bc0b-af9a9e5681e2",
     "source": "Play Store",
     "platform": "Android",
@@ -6798,27 +6243,6 @@
         "Weekend Buyers"
       ],
       "unmet_needs": []
-    }
-  },
-  {
-    "id": "6ae59c5e-1e83-4568-b791-a84b6cbceaed",
-    "source": "Reddit",
-    "platform": "Blinkit",
-    "text": "🚢 Major Boost for Indian Shipbuilding! Cochin Shipyard Ltd (CSL) and Swan Defence & Heavy Industries (SDHI) have secured in-principle approval from the National Shipbuilding Mission for brownfield expansions.",
-    "rating": 1,
-    "timestamp": "2025-07-18T00:00:00Z",
-    "url": "https://www.reddit.com/r/IndianStreetBets/comments/1v1qiw4/major_boost_for_indian_shipbuilding_cochin/",
-    "enrichment": {
-      "themes": [
-        "Stock & Availability"
-      ],
-      "sentiment": "Negative",
-      "segment": [
-        "Frequent Shoppers"
-      ],
-      "unmet_needs": [
-        "Real-time stock updates"
-      ]
     }
   }
 ]
