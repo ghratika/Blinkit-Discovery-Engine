@@ -28,22 +28,33 @@ def get_client() -> Groq:
     return Groq(api_key=api_key)
 
 
+import time
+
 def run_synthesis(client: Groq, question_key: str, prompt_text: str) -> str:
     print(f"Running synthesis for {question_key}...")
-    try:
-        chat_completion = client.chat.completions.create(
-            messages=[
-                {"role": "system", "content": "You are a UX research lead summarizing findings for a product team."},
-                {"role": "user", "content": prompt_text}
-            ],
-            model=MODEL_NAME,
-            temperature=0.2,
-            max_tokens=1024,
-        )
-        return chat_completion.choices[0].message.content
-    except Exception as e:
-        print(f"Error running synthesis for {question_key}: {e}")
-        return f"Error: {e}"
+    retries = 5
+    for attempt in range(retries):
+        try:
+            chat_completion = client.chat.completions.create(
+                messages=[
+                    {"role": "system", "content": "You are a UX research lead summarizing findings for a product team."},
+                    {"role": "user", "content": prompt_text}
+                ],
+                model=MODEL_NAME,
+                temperature=0.2,
+                max_tokens=1024,
+            )
+            return chat_completion.choices[0].message.content
+        except Exception as e:
+            error_str = str(e)
+            if "429" in error_str and attempt < retries - 1:
+                wait = 10 * (attempt + 1)
+                print(f"Rate limit hit. Waiting {wait}s before retrying...")
+                time.sleep(wait)
+            else:
+                print(f"Error running synthesis for {question_key}: {e}")
+                return f"Error: {e}"
+    return "Error: Max retries exceeded"
 
 
 def run() -> None:
@@ -84,25 +95,24 @@ def run() -> None:
         if any(seg for seg in segments):
             exploration_data.append(f"Segments: {segments}, Themes: {themes}")
 
-    # Format the Prompts
-    prompts_formatted = {
-        "q1_repeated_categories": SYNTHESIS_PROMPTS["q1_repeated_categories"].format(themes=all_themes[:200]),
-        "q2_prevent_exploration": SYNTHESIS_PROMPTS["q2_prevent_exploration"].format(data=negative_data[:50]),
-        "q3_discovery_methods": SYNTHESIS_PROMPTS["q3_discovery_methods"].format(themes=all_themes[:200]),
-        "q4_habit_and_routine": SYNTHESIS_PROMPTS["q4_habit_and_routine"].format(themes=all_themes[:200]),
-        "q5_trust_signals": SYNTHESIS_PROMPTS["q5_trust_signals"].format(themes=all_themes[:200]),
-        "q6_frustrations": SYNTHESIS_PROMPTS["q6_frustrations"].format(themes=negative_themes[:200]),
-        "q7_segments_exploration": SYNTHESIS_PROMPTS["q7_segments_exploration"].format(data=exploration_data[:50]),
-        "q8_unmet_needs": SYNTHESIS_PROMPTS["q8_unmet_needs"].format(unmet_needs=all_unmet_needs[:200]),
-    }
-
     # 2. Run LLM Synthesis
     client = get_client()
     results = {}
     
-    for key, prompt in prompts_formatted.items():
-        answer = run_synthesis(client, key, prompt)
-        results[key] = answer
+    unique_themes = list(set(all_themes))
+    unique_needs = list(set(all_unmet_needs))
+
+    for question_key, prompt_text in SYNTHESIS_PROMPTS.items():
+        if "data" in prompt_text:
+            formatted_prompt = prompt_text.format(data=json.dumps(exploration_data, ensure_ascii=False)[:3000]) # Cap text
+        elif "unmet_needs" in prompt_text:
+            formatted_prompt = prompt_text.format(unmet_needs=json.dumps(unique_needs, ensure_ascii=False))
+        else:
+            # Send all themes to questions asking for themes
+            formatted_prompt = prompt_text.format(themes=json.dumps(unique_themes, ensure_ascii=False))
+        
+        answer = run_synthesis(client, question_key, formatted_prompt)
+        results[question_key] = answer
 
     # 3. Save Output
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
