@@ -314,7 +314,7 @@ div[data-baseweb="tag"] { background: var(--yellow-dim) !important; color: var(-
 
 @st.cache_data(ttl=120)
 def load_enriched() -> list[dict]:
-    # Cache busted to pull discovery rank update
+    # Cache busted to pull recovered dataset
     path = ROOT / "data" / "processed" / "enriched.json"
     if path.exists():
         with open(path, encoding="utf-8") as f:
